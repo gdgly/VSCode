@@ -1,0 +1,1945 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"50 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\var_global.h
+[v _SysStatus `Vuc ~T0 @X0 0 e ]
+"130
+[v _AC_Vol_Rms `Vui ~T0 @X0 0 e ]
+"132
+[v _Vrms_Level `Vuc ~T0 @X0 0 e ]
+"305 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.h
+[v _Init_LED_Module `(v ~T0 @X0 0 ef ]
+"8 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\delay.h
+[v _DelayXms `(v ~T0 @X0 0 ef1`ui ]
+"67 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\var_global.h
+[v _BuzCnt `Vuc ~T0 @X0 0 e ]
+"68
+[v _BuzUpTime `Vuc ~T0 @X0 0 e ]
+"69
+[v _BuzDownTime `Vuc ~T0 @X0 0 e ]
+"70
+[v _BuzUpTemp `Vuc ~T0 @X0 0 e ]
+"71
+[v _BuzDownTemp `Vuc ~T0 @X0 0 e ]
+"16 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.h
+[v _Operate_Relay_IO `(v ~T0 @X0 0 ef ]
+"94 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\var_global.h
+[v _Ad_Pressure_Raw `Vuc ~T0 @X0 0 e ]
+"304 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.h
+[v _Get_AD `(uc ~T0 @X0 0 ef1`uc ]
+"299
+[v _Get_Pressure_Switch_Data `(v ~T0 @X0 0 ef ]
+"302
+[v _Get_Zero `(v ~T0 @X0 0 ef ]
+"127 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\var_global.h
+[v _b_VolData_OK `Vb ~T0 @X0 0 e ]
+"300 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.h
+[v _Get_AC_Voltage `(v ~T0 @X0 0 ef ]
+"12 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\var_global.h
+[v _MainTime_8ms `Vuc ~T0 @X0 0 e ]
+"8
+[v _b_MainLoop_8ms `Vb ~T0 @X0 0 e ]
+"92
+[v _b_AdBot_OK `Vb ~T0 @X0 0 e ]
+"93
+[v _Ad_Bot_Raw `Vuc ~T0 @X0 0 e ]
+"13
+[v _MainTime_10ms `Vuc ~T0 @X0 0 e ]
+"14
+[v _MainTime_500ms `Vuc ~T0 @X0 0 e ]
+"9
+[v _b_MainLoop_500ms `Vb ~T0 @X0 0 e ]
+"15
+[v _LedCol_500ms `Vuc ~T0 @X0 0 e ]
+"10
+[v _b_LedCol `Vb ~T0 @X0 0 e ]
+[p mainexit ]
+"16
+[v _WaitCycle `Vuc ~T0 @X0 0 e ]
+"97
+[v _b_LidClosed `Vb ~T0 @X0 0 e ]
+"60
+[v _FactoryTestData `Vuc ~T0 @X0 0 e ]
+"147
+[v _b_Auto_test `Vb ~T0 @X0 0 e ]
+"153 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.h
+[v _Key_Drive `(v ~T0 @X0 0 ef ]
+"154
+[v _Key_Task `(v ~T0 @X0 0 ef ]
+"303 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.h
+[v _Get_Temp_Data `(v ~T0 @X0 0 ef ]
+"298
+[v _Get_Lid_Data `(v ~T0 @X0 0 ef ]
+"17 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\error.h
+[v _Error_Deal `(v ~T0 @X0 0 ef ]
+"14 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.h
+[v _Cook_Task `(v ~T0 @X0 0 ef ]
+"29 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\Sound.h
+[v _Sound_Deal `(v ~T0 @X0 0 ef ]
+"304 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.h
+[v _LED_Task `(v ~T0 @X0 0 ef ]
+"303
+[v _LED_Drive `(v ~T0 @X0 0 ef ]
+"7 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.h
+[v _Time_Deal `(v ~T0 @X0 0 ef ]
+"301 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.h
+[v _Get_AC_Rms `(v ~T0 @X0 0 ef ]
+[; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
+[; ;htc.h: 28: extern double __fpnormalize(double);
+[; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
+"13 D:\PROGRA~2\CMS_ID~1.12\data\include\cms89f23x5.h
+[v _INDF `Vuc ~T0 @X0 1 e@0 ]
+[; ;cms89f23x5.h: 13: volatile unsigned char INDF @ 0x000;
+"14
+[v _TMR0 `Vuc ~T0 @X0 1 e@1 ]
+[; ;cms89f23x5.h: 14: volatile unsigned char TMR0 @ 0x001;
+"15
+[v _PCL `Vuc ~T0 @X0 1 e@2 ]
+[; ;cms89f23x5.h: 15: volatile unsigned char PCL @ 0x002;
+"16
+[v _STATUS `Vuc ~T0 @X0 1 e@3 ]
+[; ;cms89f23x5.h: 16: volatile unsigned char STATUS @ 0x003;
+"17
+[v _FSR `Vuc ~T0 @X0 1 e@4 ]
+[; ;cms89f23x5.h: 17: volatile unsigned char FSR @ 0x004;
+"18
+[v _PORTA `Vuc ~T0 @X0 1 e@5 ]
+[; ;cms89f23x5.h: 18: volatile unsigned char PORTA @ 0x005;
+"19
+[v _PORTB `Vuc ~T0 @X0 1 e@6 ]
+[; ;cms89f23x5.h: 19: volatile unsigned char PORTB @ 0x006;
+"20
+[v _PORTC `Vuc ~T0 @X0 1 e@7 ]
+[; ;cms89f23x5.h: 20: volatile unsigned char PORTC @ 0x007;
+"21
+[v _PORTD `Vuc ~T0 @X0 1 e@8 ]
+[; ;cms89f23x5.h: 21: volatile unsigned char PORTD @ 0x008;
+"23
+[v _PCLATH `Vuc ~T0 @X0 1 e@10 ]
+[; ;cms89f23x5.h: 23: volatile unsigned char PCLATH @ 0x00A;
+"24
+[v _INTCON `Vuc ~T0 @X0 1 e@11 ]
+[; ;cms89f23x5.h: 24: volatile unsigned char INTCON @ 0x00B;
+"25
+[v _PIR1 `Vuc ~T0 @X0 1 e@12 ]
+[; ;cms89f23x5.h: 25: volatile unsigned char PIR1 @ 0x00C;
+"27
+[v _TMR1L `Vuc ~T0 @X0 1 e@14 ]
+[; ;cms89f23x5.h: 27: volatile unsigned char TMR1L @ 0x00E;
+"28
+[v _TMR1H `Vuc ~T0 @X0 1 e@15 ]
+[; ;cms89f23x5.h: 28: volatile unsigned char TMR1H @ 0x00F;
+"29
+[v _T1CON `Vuc ~T0 @X0 1 e@16 ]
+[; ;cms89f23x5.h: 29: volatile unsigned char T1CON @ 0x010;
+"30
+[v _TMR2 `Vuc ~T0 @X0 1 e@17 ]
+[; ;cms89f23x5.h: 30: volatile unsigned char TMR2 @ 0x011;
+"31
+[v _T2CON `Vuc ~T0 @X0 1 e@18 ]
+[; ;cms89f23x5.h: 31: volatile unsigned char T2CON @ 0x012;
+"33
+[v _BAUDCTL1 `Vuc ~T0 @X0 1 e@21 ]
+[; ;cms89f23x5.h: 33: volatile unsigned char BAUDCTL1 @ 0x015;
+"34
+[v _RCREG1 `Vuc ~T0 @X0 1 e@22 ]
+[; ;cms89f23x5.h: 34: volatile unsigned char RCREG1 @ 0x016;
+"35
+[v _RCSTA1 `Vuc ~T0 @X0 1 e@23 ]
+[; ;cms89f23x5.h: 35: volatile unsigned char RCSTA1 @ 0x017;
+"36
+[v _RCSTA0 `Vuc ~T0 @X0 1 e@24 ]
+[; ;cms89f23x5.h: 36: volatile unsigned char RCSTA0 @ 0x018;
+"37
+[v _TXREG0 `Vuc ~T0 @X0 1 e@25 ]
+[; ;cms89f23x5.h: 37: volatile unsigned char TXREG0 @ 0x019;
+"38
+[v _RCREG0 `Vuc ~T0 @X0 1 e@26 ]
+[; ;cms89f23x5.h: 38: volatile unsigned char RCREG0 @ 0x01A;
+"39
+[v _CCPR0L `Vuc ~T0 @X0 1 e@27 ]
+[; ;cms89f23x5.h: 39: volatile unsigned char CCPR0L @ 0x01B;
+"40
+[v _CCPR1L `Vuc ~T0 @X0 1 e@28 ]
+[; ;cms89f23x5.h: 40: volatile unsigned char CCPR1L @ 0x01C;
+"41
+[v _PWMCON `Vuc ~T0 @X0 1 e@29 ]
+[; ;cms89f23x5.h: 41: volatile unsigned char PWMCON @ 0x01D;
+"42
+[v _ADRESH `Vuc ~T0 @X0 1 e@30 ]
+[; ;cms89f23x5.h: 42: volatile unsigned char ADRESH @ 0x01E;
+"43
+[v _ADCON0 `Vuc ~T0 @X0 1 e@31 ]
+[; ;cms89f23x5.h: 43: volatile unsigned char ADCON0 @ 0x01F;
+"47
+[v _OPTION_REG `Vuc ~T0 @X0 1 e@129 ]
+[; ;cms89f23x5.h: 47: volatile unsigned char OPTION_REG @ 0x081;
+"48
+[v _TRISA `Vuc ~T0 @X0 1 e@133 ]
+[; ;cms89f23x5.h: 48: volatile unsigned char TRISA @ 0x085;
+"49
+[v _TRISB `Vuc ~T0 @X0 1 e@134 ]
+[; ;cms89f23x5.h: 49: volatile unsigned char TRISB @ 0x086;
+"50
+[v _TRISC `Vuc ~T0 @X0 1 e@135 ]
+[; ;cms89f23x5.h: 50: volatile unsigned char TRISC @ 0x087;
+"51
+[v _TRISD `Vuc ~T0 @X0 1 e@136 ]
+[; ;cms89f23x5.h: 51: volatile unsigned char TRISD @ 0x088;
+"52
+[v _WPDA `Vuc ~T0 @X0 1 e@137 ]
+[; ;cms89f23x5.h: 52: volatile unsigned char WPDA @ 0x089;
+"53
+[v _PIE1 `Vuc ~T0 @X0 1 e@140 ]
+[; ;cms89f23x5.h: 53: volatile unsigned char PIE1 @ 0x08C;
+"55
+[v _OSCCON `Vuc ~T0 @X0 1 e@143 ]
+[; ;cms89f23x5.h: 55: volatile unsigned char OSCCON @ 0x08F;
+"56
+[v _OSCTUNE `Vuc ~T0 @X0 1 e@144 ]
+[; ;cms89f23x5.h: 56: volatile unsigned char OSCTUNE @ 0x090;
+"58
+[v _PR2 `Vuc ~T0 @X0 1 e@146 ]
+[; ;cms89f23x5.h: 58: volatile unsigned char PR2 @ 0x092;
+"60
+[v _WPUB `Vuc ~T0 @X0 1 e@149 ]
+[; ;cms89f23x5.h: 60: volatile unsigned char WPUB @ 0x095;
+"61
+[v _IOCB `Vuc ~T0 @X0 1 e@150 ]
+[; ;cms89f23x5.h: 61: volatile unsigned char IOCB @ 0x096;
+"62
+[v _TXSTA1 `Vuc ~T0 @X0 1 e@151 ]
+[; ;cms89f23x5.h: 62: volatile unsigned char TXSTA1 @ 0x097;
+"63
+[v _TXSTA0 `Vuc ~T0 @X0 1 e@152 ]
+[; ;cms89f23x5.h: 63: volatile unsigned char TXSTA0 @ 0x098;
+"64
+[v _SPBRG0 `Vuc ~T0 @X0 1 e@153 ]
+[; ;cms89f23x5.h: 64: volatile unsigned char SPBRG0 @ 0x099;
+"65
+[v _SPBRGH0 `Vuc ~T0 @X0 1 e@154 ]
+[; ;cms89f23x5.h: 65: volatile unsigned char SPBRGH0 @ 0x09A;
+"66
+[v _SPBRG1 `Vuc ~T0 @X0 1 e@155 ]
+[; ;cms89f23x5.h: 66: volatile unsigned char SPBRG1 @ 0x09B;
+"67
+[v _SPBRGH1 `Vuc ~T0 @X0 1 e@156 ]
+[; ;cms89f23x5.h: 67: volatile unsigned char SPBRGH1 @ 0x09C;
+"68
+[v _TXREG1 `Vuc ~T0 @X0 1 e@157 ]
+[; ;cms89f23x5.h: 68: volatile unsigned char TXREG1 @ 0x09D;
+"69
+[v _ADRESL `Vuc ~T0 @X0 1 e@158 ]
+[; ;cms89f23x5.h: 69: volatile unsigned char ADRESL @ 0x09E;
+"70
+[v _ADCON1 `Vuc ~T0 @X0 1 e@159 ]
+[; ;cms89f23x5.h: 70: volatile unsigned char ADCON1 @ 0x09F;
+"75
+[v _WDTCON `Vuc ~T0 @X0 1 e@261 ]
+[; ;cms89f23x5.h: 75: volatile unsigned char WDTCON @ 0x105;
+"76
+[v _WPDB `Vuc ~T0 @X0 1 e@263 ]
+[; ;cms89f23x5.h: 76: volatile unsigned char WPDB @ 0x107;
+"77
+[v _WPDC `Vuc ~T0 @X0 1 e@264 ]
+[; ;cms89f23x5.h: 77: volatile unsigned char WPDC @ 0x108;
+"78
+[v _WPDD `Vuc ~T0 @X0 1 e@265 ]
+[; ;cms89f23x5.h: 78: volatile unsigned char WPDD @ 0x109;
+"79
+[v _EEDATA `Vuc ~T0 @X0 1 e@268 ]
+[; ;cms89f23x5.h: 79: volatile unsigned char EEDATA @ 0x10C;
+"80
+[v _EEADR `Vuc ~T0 @X0 1 e@269 ]
+[; ;cms89f23x5.h: 80: volatile unsigned char EEADR @ 0x10D;
+"81
+[v _EEDATH `Vuc ~T0 @X0 1 e@270 ]
+[; ;cms89f23x5.h: 81: volatile unsigned char EEDATH @ 0x10E;
+"82
+[v _EEADRH `Vuc ~T0 @X0 1 e@271 ]
+[; ;cms89f23x5.h: 82: volatile unsigned char EEADRH @ 0x10F;
+"83
+[v _TABLE_SPH `Vuc ~T0 @X0 1 e@272 ]
+[; ;cms89f23x5.h: 83: volatile unsigned char TABLE_SPH @ 0x110;
+"84
+[v _TABLE_SPL `Vuc ~T0 @X0 1 e@273 ]
+[; ;cms89f23x5.h: 84: volatile unsigned char TABLE_SPL @ 0x111;
+"85
+[v _TABLE_DATAH `Vuc ~T0 @X0 1 e@274 ]
+[; ;cms89f23x5.h: 85: volatile unsigned char TABLE_DATAH @ 0x112;
+"86
+[v _LCDCON3 `Vuc ~T0 @X0 1 e@275 ]
+[; ;cms89f23x5.h: 86: volatile unsigned char LCDCON3 @ 0x113;
+"87
+[v _LCDCON `Vuc ~T0 @X0 1 e@276 ]
+[; ;cms89f23x5.h: 87: volatile unsigned char LCDCON @ 0x114;
+"89
+[v _LEDCON3 `Vuc ~T0 @X0 1 e@275 ]
+[; ;cms89f23x5.h: 89: volatile unsigned char LEDCON3 @ 0x113;
+"90
+[v _LEDCON `Vuc ~T0 @X0 1 e@276 ]
+[; ;cms89f23x5.h: 90: volatile unsigned char LEDCON @ 0x114;
+"93
+[v _WPUD `Vuc ~T0 @X0 1 e@389 ]
+[; ;cms89f23x5.h: 93: volatile unsigned char WPUD @ 0x185;
+"94
+[v _BAUDCTL0 `Vuc ~T0 @X0 1 e@391 ]
+[; ;cms89f23x5.h: 94: volatile unsigned char BAUDCTL0 @ 0x187;
+"96
+[v _EECON1 `Vuc ~T0 @X0 1 e@396 ]
+[; ;cms89f23x5.h: 96: volatile unsigned char EECON1 @ 0x18C;
+"97
+[v _EECON2 `Vuc ~T0 @X0 1 e@397 ]
+[; ;cms89f23x5.h: 97: volatile unsigned char EECON2 @ 0x18D;
+"98
+[v _WPUA `Vuc ~T0 @X0 1 e@398 ]
+[; ;cms89f23x5.h: 98: volatile unsigned char WPUA @ 0x18E;
+"99
+[v _WPUC `Vuc ~T0 @X0 1 e@399 ]
+[; ;cms89f23x5.h: 99: volatile unsigned char WPUC @ 0x18F;
+"100
+[v _LCDCON0 `Vuc ~T0 @X0 1 e@400 ]
+[; ;cms89f23x5.h: 100: volatile unsigned char LCDCON0 @ 0x190;
+"101
+[v _LCDCON1 `Vuc ~T0 @X0 1 e@401 ]
+[; ;cms89f23x5.h: 101: volatile unsigned char LCDCON1 @ 0x191;
+"102
+[v _LCDADD `Vuc ~T0 @X0 1 e@402 ]
+[; ;cms89f23x5.h: 102: volatile unsigned char LCDADD @ 0x192;
+"103
+[v _LCDDATA `Vuc ~T0 @X0 1 e@403 ]
+[; ;cms89f23x5.h: 103: volatile unsigned char LCDDATA @ 0x193;
+"105
+[v _LEDCON0 `Vuc ~T0 @X0 1 e@400 ]
+[; ;cms89f23x5.h: 105: volatile unsigned char LEDCON0 @ 0x190;
+"106
+[v _LEDCON1 `Vuc ~T0 @X0 1 e@401 ]
+[; ;cms89f23x5.h: 106: volatile unsigned char LEDCON1 @ 0x191;
+"107
+[v _LEDADD `Vuc ~T0 @X0 1 e@402 ]
+[; ;cms89f23x5.h: 107: volatile unsigned char LEDADD @ 0x192;
+"108
+[v _LEDDATA `Vuc ~T0 @X0 1 e@403 ]
+[; ;cms89f23x5.h: 108: volatile unsigned char LEDDATA @ 0x193;
+"110
+[v _SEGEN2 `Vuc ~T0 @X0 1 e@404 ]
+[; ;cms89f23x5.h: 110: volatile unsigned char SEGEN2 @ 0x194;
+"111
+[v _SEGEN1 `Vuc ~T0 @X0 1 e@405 ]
+[; ;cms89f23x5.h: 111: volatile unsigned char SEGEN1 @ 0x195;
+"112
+[v _SEGEN0 `Vuc ~T0 @X0 1 e@406 ]
+[; ;cms89f23x5.h: 112: volatile unsigned char SEGEN0 @ 0x196;
+"113
+[v _LCDCON2 `Vuc ~T0 @X0 1 e@407 ]
+[; ;cms89f23x5.h: 113: volatile unsigned char LCDCON2 @ 0x197;
+"115
+[v _LEDCON2 `Vuc ~T0 @X0 1 e@407 ]
+[; ;cms89f23x5.h: 115: volatile unsigned char LEDCON2 @ 0x197;
+"121
+[v _IRP `Vb ~T0 @X0 1 e@31 ]
+[; ;cms89f23x5.h: 121: volatile bit IRP @ ((unsigned)&STATUS*8)+7;
+"122
+[v _RP1 `Vb ~T0 @X0 1 e@30 ]
+[; ;cms89f23x5.h: 122: volatile bit RP1 @ ((unsigned)&STATUS*8)+6;
+"123
+[v _RP0 `Vb ~T0 @X0 1 e@29 ]
+[; ;cms89f23x5.h: 123: volatile bit RP0 @ ((unsigned)&STATUS*8)+5;
+"124
+[v _TO `Vb ~T0 @X0 1 e@28 ]
+[; ;cms89f23x5.h: 124: volatile bit TO @ ((unsigned)&STATUS*8)+4;
+"125
+[v _PD `Vb ~T0 @X0 1 e@27 ]
+[; ;cms89f23x5.h: 125: volatile bit PD @ ((unsigned)&STATUS*8)+3;
+"126
+[v _ZERO `Vb ~T0 @X0 1 e@26 ]
+[; ;cms89f23x5.h: 126: volatile bit ZERO @ ((unsigned)&STATUS*8)+2;
+"127
+[v _DC `Vb ~T0 @X0 1 e@25 ]
+[; ;cms89f23x5.h: 127: volatile bit DC @ ((unsigned)&STATUS*8)+1;
+"128
+[v _CARRY `Vb ~T0 @X0 1 e@24 ]
+[; ;cms89f23x5.h: 128: volatile bit CARRY @ ((unsigned)&STATUS*8)+0;
+"131
+[v _RA7 `Vb ~T0 @X0 1 e@47 ]
+[; ;cms89f23x5.h: 131: volatile bit RA7 @ ((unsigned)&PORTA*8)+7;
+"132
+[v _RA6 `Vb ~T0 @X0 1 e@46 ]
+[; ;cms89f23x5.h: 132: volatile bit RA6 @ ((unsigned)&PORTA*8)+6;
+"133
+[v _RA5 `Vb ~T0 @X0 1 e@45 ]
+[; ;cms89f23x5.h: 133: volatile bit RA5 @ ((unsigned)&PORTA*8)+5;
+"134
+[v _RA4 `Vb ~T0 @X0 1 e@44 ]
+[; ;cms89f23x5.h: 134: volatile bit RA4 @ ((unsigned)&PORTA*8)+4;
+"135
+[v _RA3 `Vb ~T0 @X0 1 e@43 ]
+[; ;cms89f23x5.h: 135: volatile bit RA3 @ ((unsigned)&PORTA*8)+3;
+"136
+[v _RA2 `Vb ~T0 @X0 1 e@42 ]
+[; ;cms89f23x5.h: 136: volatile bit RA2 @ ((unsigned)&PORTA*8)+2;
+"137
+[v _RA1 `Vb ~T0 @X0 1 e@41 ]
+[; ;cms89f23x5.h: 137: volatile bit RA1 @ ((unsigned)&PORTA*8)+1;
+"138
+[v _RA0 `Vb ~T0 @X0 1 e@40 ]
+[; ;cms89f23x5.h: 138: volatile bit RA0 @ ((unsigned)&PORTA*8)+0;
+"141
+[v _RB7 `Vb ~T0 @X0 1 e@55 ]
+[; ;cms89f23x5.h: 141: volatile bit RB7 @ ((unsigned)&PORTB*8)+7;
+"142
+[v _RB6 `Vb ~T0 @X0 1 e@54 ]
+[; ;cms89f23x5.h: 142: volatile bit RB6 @ ((unsigned)&PORTB*8)+6;
+"143
+[v _RB5 `Vb ~T0 @X0 1 e@53 ]
+[; ;cms89f23x5.h: 143: volatile bit RB5 @ ((unsigned)&PORTB*8)+5;
+"144
+[v _RB4 `Vb ~T0 @X0 1 e@52 ]
+[; ;cms89f23x5.h: 144: volatile bit RB4 @ ((unsigned)&PORTB*8)+4;
+"145
+[v _RB3 `Vb ~T0 @X0 1 e@51 ]
+[; ;cms89f23x5.h: 145: volatile bit RB3 @ ((unsigned)&PORTB*8)+3;
+"146
+[v _RB2 `Vb ~T0 @X0 1 e@50 ]
+[; ;cms89f23x5.h: 146: volatile bit RB2 @ ((unsigned)&PORTB*8)+2;
+"147
+[v _RB1 `Vb ~T0 @X0 1 e@49 ]
+[; ;cms89f23x5.h: 147: volatile bit RB1 @ ((unsigned)&PORTB*8)+1;
+"148
+[v _RB0 `Vb ~T0 @X0 1 e@48 ]
+[; ;cms89f23x5.h: 148: volatile bit RB0 @ ((unsigned)&PORTB*8)+0;
+"151
+[v _RC7 `Vb ~T0 @X0 1 e@63 ]
+[; ;cms89f23x5.h: 151: volatile bit RC7 @ ((unsigned)&PORTC*8)+7;
+"152
+[v _RC6 `Vb ~T0 @X0 1 e@62 ]
+[; ;cms89f23x5.h: 152: volatile bit RC6 @ ((unsigned)&PORTC*8)+6;
+"153
+[v _RC5 `Vb ~T0 @X0 1 e@61 ]
+[; ;cms89f23x5.h: 153: volatile bit RC5 @ ((unsigned)&PORTC*8)+5;
+"154
+[v _RC4 `Vb ~T0 @X0 1 e@60 ]
+[; ;cms89f23x5.h: 154: volatile bit RC4 @ ((unsigned)&PORTC*8)+4;
+"155
+[v _RC3 `Vb ~T0 @X0 1 e@59 ]
+[; ;cms89f23x5.h: 155: volatile bit RC3 @ ((unsigned)&PORTC*8)+3;
+"156
+[v _RC2 `Vb ~T0 @X0 1 e@58 ]
+[; ;cms89f23x5.h: 156: volatile bit RC2 @ ((unsigned)&PORTC*8)+2;
+"157
+[v _RC1 `Vb ~T0 @X0 1 e@57 ]
+[; ;cms89f23x5.h: 157: volatile bit RC1 @ ((unsigned)&PORTC*8)+1;
+"158
+[v _RC0 `Vb ~T0 @X0 1 e@56 ]
+[; ;cms89f23x5.h: 158: volatile bit RC0 @ ((unsigned)&PORTC*8)+0;
+"161
+[v _RD7 `Vb ~T0 @X0 1 e@71 ]
+[; ;cms89f23x5.h: 161: volatile bit RD7 @ ((unsigned)&PORTD*8)+7;
+"162
+[v _RD6 `Vb ~T0 @X0 1 e@70 ]
+[; ;cms89f23x5.h: 162: volatile bit RD6 @ ((unsigned)&PORTD*8)+6;
+"163
+[v _RD5 `Vb ~T0 @X0 1 e@69 ]
+[; ;cms89f23x5.h: 163: volatile bit RD5 @ ((unsigned)&PORTD*8)+5;
+"164
+[v _RD4 `Vb ~T0 @X0 1 e@68 ]
+[; ;cms89f23x5.h: 164: volatile bit RD4 @ ((unsigned)&PORTD*8)+4;
+"165
+[v _RD3 `Vb ~T0 @X0 1 e@67 ]
+[; ;cms89f23x5.h: 165: volatile bit RD3 @ ((unsigned)&PORTD*8)+3;
+"166
+[v _RD2 `Vb ~T0 @X0 1 e@66 ]
+[; ;cms89f23x5.h: 166: volatile bit RD2 @ ((unsigned)&PORTD*8)+2;
+"167
+[v _RD1 `Vb ~T0 @X0 1 e@65 ]
+[; ;cms89f23x5.h: 167: volatile bit RD1 @ ((unsigned)&PORTD*8)+1;
+"168
+[v _RD0 `Vb ~T0 @X0 1 e@64 ]
+[; ;cms89f23x5.h: 168: volatile bit RD0 @ ((unsigned)&PORTD*8)+0;
+"172
+[v _GIE `Vb ~T0 @X0 1 e@95 ]
+[; ;cms89f23x5.h: 172: volatile bit GIE @ ((unsigned)&INTCON*8)+7;
+"173
+[v _PEIE `Vb ~T0 @X0 1 e@94 ]
+[; ;cms89f23x5.h: 173: volatile bit PEIE @ ((unsigned)&INTCON*8)+6;
+"174
+[v _T0IE `Vb ~T0 @X0 1 e@93 ]
+[; ;cms89f23x5.h: 174: volatile bit T0IE @ ((unsigned)&INTCON*8)+5;
+"175
+[v _INTE `Vb ~T0 @X0 1 e@92 ]
+[; ;cms89f23x5.h: 175: volatile bit INTE @ ((unsigned)&INTCON*8)+4;
+"176
+[v _RBIE `Vb ~T0 @X0 1 e@91 ]
+[; ;cms89f23x5.h: 176: volatile bit RBIE @ ((unsigned)&INTCON*8)+3;
+"178
+[v _RABIE `Vb ~T0 @X0 1 e@91 ]
+[; ;cms89f23x5.h: 178: volatile bit RABIE @ ((unsigned)&INTCON*8)+3;
+"179
+[v _T0IF `Vb ~T0 @X0 1 e@90 ]
+[; ;cms89f23x5.h: 179: volatile bit T0IF @ ((unsigned)&INTCON*8)+2;
+"180
+[v _INTF `Vb ~T0 @X0 1 e@89 ]
+[; ;cms89f23x5.h: 180: volatile bit INTF @ ((unsigned)&INTCON*8)+1;
+"181
+[v _RBIF `Vb ~T0 @X0 1 e@88 ]
+[; ;cms89f23x5.h: 181: volatile bit RBIF @ ((unsigned)&INTCON*8)+0;
+"183
+[v _RABIF `Vb ~T0 @X0 1 e@88 ]
+[; ;cms89f23x5.h: 183: volatile bit RABIF @ ((unsigned)&INTCON*8)+0;
+"187
+[v _RC1IF `Vb ~T0 @X0 1 e@103 ]
+[; ;cms89f23x5.h: 187: volatile bit RC1IF @ ((unsigned)&PIR1*8)+7;
+"188
+[v _TX1IF `Vb ~T0 @X0 1 e@102 ]
+[; ;cms89f23x5.h: 188: volatile bit TX1IF @ ((unsigned)&PIR1*8)+6;
+"189
+[v _RC0IF `Vb ~T0 @X0 1 e@101 ]
+[; ;cms89f23x5.h: 189: volatile bit RC0IF @ ((unsigned)&PIR1*8)+5;
+"190
+[v _TX0IF `Vb ~T0 @X0 1 e@100 ]
+[; ;cms89f23x5.h: 190: volatile bit TX0IF @ ((unsigned)&PIR1*8)+4;
+"191
+[v _EEIF `Vb ~T0 @X0 1 e@99 ]
+[; ;cms89f23x5.h: 191: volatile bit EEIF @ ((unsigned)&PIR1*8)+3;
+"192
+[v _ADIF `Vb ~T0 @X0 1 e@98 ]
+[; ;cms89f23x5.h: 192: volatile bit ADIF @ ((unsigned)&PIR1*8)+2;
+"193
+[v _TMR2IF `Vb ~T0 @X0 1 e@97 ]
+[; ;cms89f23x5.h: 193: volatile bit TMR2IF @ ((unsigned)&PIR1*8)+1;
+"194
+[v _TMR1IF `Vb ~T0 @X0 1 e@96 ]
+[; ;cms89f23x5.h: 194: volatile bit TMR1IF @ ((unsigned)&PIR1*8)+0;
+"198
+[v _T1GINV `Vb ~T0 @X0 1 e@135 ]
+[; ;cms89f23x5.h: 198: volatile bit T1GINV @ ((unsigned)&T1CON*8)+7;
+"199
+[v _TMR1GE `Vb ~T0 @X0 1 e@134 ]
+[; ;cms89f23x5.h: 199: volatile bit TMR1GE @ ((unsigned)&T1CON*8)+6;
+"200
+[v _T1CKPS1 `Vb ~T0 @X0 1 e@133 ]
+[; ;cms89f23x5.h: 200: volatile bit T1CKPS1 @ ((unsigned)&T1CON*8)+5;
+"201
+[v _T1CKPS0 `Vb ~T0 @X0 1 e@132 ]
+[; ;cms89f23x5.h: 201: volatile bit T1CKPS0 @ ((unsigned)&T1CON*8)+4;
+"202
+[v _T1OSCEN `Vb ~T0 @X0 1 e@131 ]
+[; ;cms89f23x5.h: 202: volatile bit T1OSCEN @ ((unsigned)&T1CON*8)+3;
+"203
+[v _T1SYNC `Vb ~T0 @X0 1 e@130 ]
+[; ;cms89f23x5.h: 203: volatile bit T1SYNC @ ((unsigned)&T1CON*8)+2;
+"204
+[v _TMR1CS `Vb ~T0 @X0 1 e@129 ]
+[; ;cms89f23x5.h: 204: volatile bit TMR1CS @ ((unsigned)&T1CON*8)+1;
+"205
+[v _TMR1ON `Vb ~T0 @X0 1 e@128 ]
+[; ;cms89f23x5.h: 205: volatile bit TMR1ON @ ((unsigned)&T1CON*8)+0;
+"209
+[v _TOUTPS3 `Vb ~T0 @X0 1 e@150 ]
+[; ;cms89f23x5.h: 209: volatile bit TOUTPS3 @ ((unsigned)&T2CON*8)+6;
+"210
+[v _TOUTPS2 `Vb ~T0 @X0 1 e@149 ]
+[; ;cms89f23x5.h: 210: volatile bit TOUTPS2 @ ((unsigned)&T2CON*8)+5;
+"211
+[v _TOUTPS1 `Vb ~T0 @X0 1 e@148 ]
+[; ;cms89f23x5.h: 211: volatile bit TOUTPS1 @ ((unsigned)&T2CON*8)+4;
+"212
+[v _TOUTPS0 `Vb ~T0 @X0 1 e@147 ]
+[; ;cms89f23x5.h: 212: volatile bit TOUTPS0 @ ((unsigned)&T2CON*8)+3;
+"213
+[v _TMR2ON `Vb ~T0 @X0 1 e@146 ]
+[; ;cms89f23x5.h: 213: volatile bit TMR2ON @ ((unsigned)&T2CON*8)+2;
+"214
+[v _T2CKPS1 `Vb ~T0 @X0 1 e@145 ]
+[; ;cms89f23x5.h: 214: volatile bit T2CKPS1 @ ((unsigned)&T2CON*8)+1;
+"215
+[v _T2CKPS0 `Vb ~T0 @X0 1 e@144 ]
+[; ;cms89f23x5.h: 215: volatile bit T2CKPS0 @ ((unsigned)&T2CON*8)+0;
+"218
+[v _RCIDL1 `Vb ~T0 @X0 1 e@174 ]
+[; ;cms89f23x5.h: 218: volatile bit RCIDL1 @ ((unsigned)&BAUDCTL1*8)+6;
+"219
+[v _SCKP1 `Vb ~T0 @X0 1 e@172 ]
+[; ;cms89f23x5.h: 219: volatile bit SCKP1 @ ((unsigned)&BAUDCTL1*8)+4;
+"220
+[v _BRG16EN1 `Vb ~T0 @X0 1 e@171 ]
+[; ;cms89f23x5.h: 220: volatile bit BRG16EN1 @ ((unsigned)&BAUDCTL1*8)+3;
+"223
+[v _RCIDL `Vb ~T0 @X0 1 e@3134 ]
+[; ;cms89f23x5.h: 223: volatile bit RCIDL @ ((unsigned)&BAUDCTL0*8)+6;
+"224
+[v _SCKP `Vb ~T0 @X0 1 e@3132 ]
+[; ;cms89f23x5.h: 224: volatile bit SCKP @ ((unsigned)&BAUDCTL0*8)+4;
+"225
+[v _BRG16EN0 `Vb ~T0 @X0 1 e@3131 ]
+[; ;cms89f23x5.h: 225: volatile bit BRG16EN0 @ ((unsigned)&BAUDCTL0*8)+3;
+"229
+[v _SPEN `Vb ~T0 @X0 1 e@199 ]
+[; ;cms89f23x5.h: 229: volatile bit SPEN @ ((unsigned)&RCSTA0*8)+7;
+"230
+[v _RX9EN0 `Vb ~T0 @X0 1 e@198 ]
+[; ;cms89f23x5.h: 230: volatile bit RX9EN0 @ ((unsigned)&RCSTA0*8)+6;
+"231
+[v _SREN `Vb ~T0 @X0 1 e@197 ]
+[; ;cms89f23x5.h: 231: volatile bit SREN @ ((unsigned)&RCSTA0*8)+5;
+"232
+[v _CREN `Vb ~T0 @X0 1 e@196 ]
+[; ;cms89f23x5.h: 232: volatile bit CREN @ ((unsigned)&RCSTA0*8)+4;
+"233
+[v _FERR `Vb ~T0 @X0 1 e@194 ]
+[; ;cms89f23x5.h: 233: volatile bit FERR @ ((unsigned)&RCSTA0*8)+2;
+"234
+[v _OERR `Vb ~T0 @X0 1 e@193 ]
+[; ;cms89f23x5.h: 234: volatile bit OERR @ ((unsigned)&RCSTA0*8)+1;
+"235
+[v _RX9D `Vb ~T0 @X0 1 e@192 ]
+[; ;cms89f23x5.h: 235: volatile bit RX9D @ ((unsigned)&RCSTA0*8)+0;
+"239
+[v _SPEN1 `Vb ~T0 @X0 1 e@191 ]
+[; ;cms89f23x5.h: 239: volatile bit SPEN1 @ ((unsigned)&RCSTA1*8)+7;
+"240
+[v _RX9EN1 `Vb ~T0 @X0 1 e@190 ]
+[; ;cms89f23x5.h: 240: volatile bit RX9EN1 @ ((unsigned)&RCSTA1*8)+6;
+"241
+[v _SREN1 `Vb ~T0 @X0 1 e@189 ]
+[; ;cms89f23x5.h: 241: volatile bit SREN1 @ ((unsigned)&RCSTA1*8)+5;
+"242
+[v _CREN1 `Vb ~T0 @X0 1 e@188 ]
+[; ;cms89f23x5.h: 242: volatile bit CREN1 @ ((unsigned)&RCSTA1*8)+4;
+"243
+[v _FERR1 `Vb ~T0 @X0 1 e@186 ]
+[; ;cms89f23x5.h: 243: volatile bit FERR1 @ ((unsigned)&RCSTA1*8)+2;
+"244
+[v _OERR1 `Vb ~T0 @X0 1 e@185 ]
+[; ;cms89f23x5.h: 244: volatile bit OERR1 @ ((unsigned)&RCSTA1*8)+1;
+"245
+[v _RX9D1 `Vb ~T0 @X0 1 e@184 ]
+[; ;cms89f23x5.h: 245: volatile bit RX9D1 @ ((unsigned)&RCSTA1*8)+0;
+"248
+[v _PWMSEL `Vb ~T0 @X0 1 e@234 ]
+[; ;cms89f23x5.h: 248: volatile bit PWMSEL @ ((unsigned)&PWMCON*8)+2;
+"249
+[v _PWM1EN `Vb ~T0 @X0 1 e@233 ]
+[; ;cms89f23x5.h: 249: volatile bit PWM1EN @ ((unsigned)&PWMCON*8)+1;
+"250
+[v _PWM0EN `Vb ~T0 @X0 1 e@232 ]
+[; ;cms89f23x5.h: 250: volatile bit PWM0EN @ ((unsigned)&PWMCON*8)+0;
+"254
+[v _ADCS1 `Vb ~T0 @X0 1 e@255 ]
+[; ;cms89f23x5.h: 254: volatile bit ADCS1 @ ((unsigned)&ADCON0*8)+7;
+"255
+[v _ADCS0 `Vb ~T0 @X0 1 e@254 ]
+[; ;cms89f23x5.h: 255: volatile bit ADCS0 @ ((unsigned)&ADCON0*8)+6;
+"256
+[v _CHS3 `Vb ~T0 @X0 1 e@253 ]
+[; ;cms89f23x5.h: 256: volatile bit CHS3 @ ((unsigned)&ADCON0*8)+5;
+"257
+[v _CHS2 `Vb ~T0 @X0 1 e@252 ]
+[; ;cms89f23x5.h: 257: volatile bit CHS2 @ ((unsigned)&ADCON0*8)+4;
+"258
+[v _CHS1 `Vb ~T0 @X0 1 e@251 ]
+[; ;cms89f23x5.h: 258: volatile bit CHS1 @ ((unsigned)&ADCON0*8)+3;
+"259
+[v _CHS0 `Vb ~T0 @X0 1 e@250 ]
+[; ;cms89f23x5.h: 259: volatile bit CHS0 @ ((unsigned)&ADCON0*8)+2;
+"260
+[v _GODONE `Vb ~T0 @X0 1 e@249 ]
+[; ;cms89f23x5.h: 260: volatile bit GODONE @ ((unsigned)&ADCON0*8)+1;
+"261
+[v _ADON `Vb ~T0 @X0 1 e@248 ]
+[; ;cms89f23x5.h: 261: volatile bit ADON @ ((unsigned)&ADCON0*8)+0;
+"264
+[v _INTEDG `Vb ~T0 @X0 1 e@1038 ]
+[; ;cms89f23x5.h: 264: volatile bit INTEDG @ ((unsigned)&OPTION_REG*8)+6;
+"265
+[v _T0CS `Vb ~T0 @X0 1 e@1037 ]
+[; ;cms89f23x5.h: 265: volatile bit T0CS @ ((unsigned)&OPTION_REG*8)+5;
+"266
+[v _T0SE `Vb ~T0 @X0 1 e@1036 ]
+[; ;cms89f23x5.h: 266: volatile bit T0SE @ ((unsigned)&OPTION_REG*8)+4;
+"267
+[v _PSA `Vb ~T0 @X0 1 e@1035 ]
+[; ;cms89f23x5.h: 267: volatile bit PSA @ ((unsigned)&OPTION_REG*8)+3;
+"268
+[v _PS2 `Vb ~T0 @X0 1 e@1034 ]
+[; ;cms89f23x5.h: 268: volatile bit PS2 @ ((unsigned)&OPTION_REG*8)+2;
+"269
+[v _PS1 `Vb ~T0 @X0 1 e@1033 ]
+[; ;cms89f23x5.h: 269: volatile bit PS1 @ ((unsigned)&OPTION_REG*8)+1;
+"270
+[v _PS0 `Vb ~T0 @X0 1 e@1032 ]
+[; ;cms89f23x5.h: 270: volatile bit PS0 @ ((unsigned)&OPTION_REG*8)+0;
+"273
+[v _TRISA7 `Vb ~T0 @X0 1 e@1071 ]
+[; ;cms89f23x5.h: 273: volatile bit TRISA7 @ ((unsigned)&TRISA*8)+7;
+"274
+[v _TRISA6 `Vb ~T0 @X0 1 e@1070 ]
+[; ;cms89f23x5.h: 274: volatile bit TRISA6 @ ((unsigned)&TRISA*8)+6;
+"275
+[v _TRISA5 `Vb ~T0 @X0 1 e@1069 ]
+[; ;cms89f23x5.h: 275: volatile bit TRISA5 @ ((unsigned)&TRISA*8)+5;
+"276
+[v _TRISA4 `Vb ~T0 @X0 1 e@1068 ]
+[; ;cms89f23x5.h: 276: volatile bit TRISA4 @ ((unsigned)&TRISA*8)+4;
+"277
+[v _TRISA3 `Vb ~T0 @X0 1 e@1067 ]
+[; ;cms89f23x5.h: 277: volatile bit TRISA3 @ ((unsigned)&TRISA*8)+3;
+"278
+[v _TRISA2 `Vb ~T0 @X0 1 e@1066 ]
+[; ;cms89f23x5.h: 278: volatile bit TRISA2 @ ((unsigned)&TRISA*8)+2;
+"279
+[v _TRISA1 `Vb ~T0 @X0 1 e@1065 ]
+[; ;cms89f23x5.h: 279: volatile bit TRISA1 @ ((unsigned)&TRISA*8)+1;
+"280
+[v _TRISA0 `Vb ~T0 @X0 1 e@1064 ]
+[; ;cms89f23x5.h: 280: volatile bit TRISA0 @ ((unsigned)&TRISA*8)+0;
+"283
+[v _TRISB7 `Vb ~T0 @X0 1 e@1079 ]
+[; ;cms89f23x5.h: 283: volatile bit TRISB7 @ ((unsigned)&TRISB*8)+7;
+"284
+[v _TRISB6 `Vb ~T0 @X0 1 e@1078 ]
+[; ;cms89f23x5.h: 284: volatile bit TRISB6 @ ((unsigned)&TRISB*8)+6;
+"285
+[v _TRISB5 `Vb ~T0 @X0 1 e@1077 ]
+[; ;cms89f23x5.h: 285: volatile bit TRISB5 @ ((unsigned)&TRISB*8)+5;
+"286
+[v _TRISB4 `Vb ~T0 @X0 1 e@1076 ]
+[; ;cms89f23x5.h: 286: volatile bit TRISB4 @ ((unsigned)&TRISB*8)+4;
+"287
+[v _TRISB3 `Vb ~T0 @X0 1 e@1075 ]
+[; ;cms89f23x5.h: 287: volatile bit TRISB3 @ ((unsigned)&TRISB*8)+3;
+"288
+[v _TRISB2 `Vb ~T0 @X0 1 e@1074 ]
+[; ;cms89f23x5.h: 288: volatile bit TRISB2 @ ((unsigned)&TRISB*8)+2;
+"289
+[v _TRISB1 `Vb ~T0 @X0 1 e@1073 ]
+[; ;cms89f23x5.h: 289: volatile bit TRISB1 @ ((unsigned)&TRISB*8)+1;
+"290
+[v _TRISB0 `Vb ~T0 @X0 1 e@1072 ]
+[; ;cms89f23x5.h: 290: volatile bit TRISB0 @ ((unsigned)&TRISB*8)+0;
+"293
+[v _TRISC7 `Vb ~T0 @X0 1 e@1087 ]
+[; ;cms89f23x5.h: 293: volatile bit TRISC7 @ ((unsigned)&TRISC*8)+7;
+"294
+[v _TRISC6 `Vb ~T0 @X0 1 e@1086 ]
+[; ;cms89f23x5.h: 294: volatile bit TRISC6 @ ((unsigned)&TRISC*8)+6;
+"295
+[v _TRISC5 `Vb ~T0 @X0 1 e@1085 ]
+[; ;cms89f23x5.h: 295: volatile bit TRISC5 @ ((unsigned)&TRISC*8)+5;
+"296
+[v _TRISC4 `Vb ~T0 @X0 1 e@1084 ]
+[; ;cms89f23x5.h: 296: volatile bit TRISC4 @ ((unsigned)&TRISC*8)+4;
+"297
+[v _TRISC3 `Vb ~T0 @X0 1 e@1083 ]
+[; ;cms89f23x5.h: 297: volatile bit TRISC3 @ ((unsigned)&TRISC*8)+3;
+"298
+[v _TRISC2 `Vb ~T0 @X0 1 e@1082 ]
+[; ;cms89f23x5.h: 298: volatile bit TRISC2 @ ((unsigned)&TRISC*8)+2;
+"299
+[v _TRISC1 `Vb ~T0 @X0 1 e@1081 ]
+[; ;cms89f23x5.h: 299: volatile bit TRISC1 @ ((unsigned)&TRISC*8)+1;
+"300
+[v _TRISC0 `Vb ~T0 @X0 1 e@1080 ]
+[; ;cms89f23x5.h: 300: volatile bit TRISC0 @ ((unsigned)&TRISC*8)+0;
+"303
+[v _TRISD7 `Vb ~T0 @X0 1 e@1095 ]
+[; ;cms89f23x5.h: 303: volatile bit TRISD7 @ ((unsigned)&TRISD*8)+7;
+"304
+[v _TRISD6 `Vb ~T0 @X0 1 e@1094 ]
+[; ;cms89f23x5.h: 304: volatile bit TRISD6 @ ((unsigned)&TRISD*8)+6;
+"305
+[v _TRISD5 `Vb ~T0 @X0 1 e@1093 ]
+[; ;cms89f23x5.h: 305: volatile bit TRISD5 @ ((unsigned)&TRISD*8)+5;
+"306
+[v _TRISD4 `Vb ~T0 @X0 1 e@1092 ]
+[; ;cms89f23x5.h: 306: volatile bit TRISD4 @ ((unsigned)&TRISD*8)+4;
+"307
+[v _TRISD3 `Vb ~T0 @X0 1 e@1091 ]
+[; ;cms89f23x5.h: 307: volatile bit TRISD3 @ ((unsigned)&TRISD*8)+3;
+"308
+[v _TRISD2 `Vb ~T0 @X0 1 e@1090 ]
+[; ;cms89f23x5.h: 308: volatile bit TRISD2 @ ((unsigned)&TRISD*8)+2;
+"309
+[v _TRISD1 `Vb ~T0 @X0 1 e@1089 ]
+[; ;cms89f23x5.h: 309: volatile bit TRISD1 @ ((unsigned)&TRISD*8)+1;
+"310
+[v _TRISD0 `Vb ~T0 @X0 1 e@1088 ]
+[; ;cms89f23x5.h: 310: volatile bit TRISD0 @ ((unsigned)&TRISD*8)+0;
+"313
+[v _WPUA7 `Vb ~T0 @X0 1 e@3191 ]
+[; ;cms89f23x5.h: 313: volatile bit WPUA7 @ ((unsigned)&WPUA*8)+7;
+"314
+[v _WPUA6 `Vb ~T0 @X0 1 e@3190 ]
+[; ;cms89f23x5.h: 314: volatile bit WPUA6 @ ((unsigned)&WPUA*8)+6;
+"315
+[v _WPUA5 `Vb ~T0 @X0 1 e@3189 ]
+[; ;cms89f23x5.h: 315: volatile bit WPUA5 @ ((unsigned)&WPUA*8)+5;
+"316
+[v _WPUA4 `Vb ~T0 @X0 1 e@3188 ]
+[; ;cms89f23x5.h: 316: volatile bit WPUA4 @ ((unsigned)&WPUA*8)+4;
+"317
+[v _WPUA3 `Vb ~T0 @X0 1 e@3187 ]
+[; ;cms89f23x5.h: 317: volatile bit WPUA3 @ ((unsigned)&WPUA*8)+3;
+"318
+[v _WPUA2 `Vb ~T0 @X0 1 e@3186 ]
+[; ;cms89f23x5.h: 318: volatile bit WPUA2 @ ((unsigned)&WPUA*8)+2;
+"319
+[v _WPUA1 `Vb ~T0 @X0 1 e@3185 ]
+[; ;cms89f23x5.h: 319: volatile bit WPUA1 @ ((unsigned)&WPUA*8)+1;
+"320
+[v _WPUA0 `Vb ~T0 @X0 1 e@3184 ]
+[; ;cms89f23x5.h: 320: volatile bit WPUA0 @ ((unsigned)&WPUA*8)+0;
+"323
+[v _WPUB7 `Vb ~T0 @X0 1 e@1199 ]
+[; ;cms89f23x5.h: 323: volatile bit WPUB7 @ ((unsigned)&WPUB*8)+7;
+"324
+[v _WPUB6 `Vb ~T0 @X0 1 e@1198 ]
+[; ;cms89f23x5.h: 324: volatile bit WPUB6 @ ((unsigned)&WPUB*8)+6;
+"325
+[v _WPUB5 `Vb ~T0 @X0 1 e@1197 ]
+[; ;cms89f23x5.h: 325: volatile bit WPUB5 @ ((unsigned)&WPUB*8)+5;
+"326
+[v _WPUB4 `Vb ~T0 @X0 1 e@1196 ]
+[; ;cms89f23x5.h: 326: volatile bit WPUB4 @ ((unsigned)&WPUB*8)+4;
+"327
+[v _WPUB3 `Vb ~T0 @X0 1 e@1195 ]
+[; ;cms89f23x5.h: 327: volatile bit WPUB3 @ ((unsigned)&WPUB*8)+3;
+"328
+[v _WPUB2 `Vb ~T0 @X0 1 e@1194 ]
+[; ;cms89f23x5.h: 328: volatile bit WPUB2 @ ((unsigned)&WPUB*8)+2;
+"329
+[v _WPUB1 `Vb ~T0 @X0 1 e@1193 ]
+[; ;cms89f23x5.h: 329: volatile bit WPUB1 @ ((unsigned)&WPUB*8)+1;
+"330
+[v _WPUB0 `Vb ~T0 @X0 1 e@1192 ]
+[; ;cms89f23x5.h: 330: volatile bit WPUB0 @ ((unsigned)&WPUB*8)+0;
+"333
+[v _WPUC7 `Vb ~T0 @X0 1 e@3199 ]
+[; ;cms89f23x5.h: 333: volatile bit WPUC7 @ ((unsigned)&WPUC*8)+7;
+"334
+[v _WPUC6 `Vb ~T0 @X0 1 e@3198 ]
+[; ;cms89f23x5.h: 334: volatile bit WPUC6 @ ((unsigned)&WPUC*8)+6;
+"335
+[v _WPUC5 `Vb ~T0 @X0 1 e@3197 ]
+[; ;cms89f23x5.h: 335: volatile bit WPUC5 @ ((unsigned)&WPUC*8)+5;
+"336
+[v _WPUC4 `Vb ~T0 @X0 1 e@3196 ]
+[; ;cms89f23x5.h: 336: volatile bit WPUC4 @ ((unsigned)&WPUC*8)+4;
+"337
+[v _WPUC3 `Vb ~T0 @X0 1 e@3195 ]
+[; ;cms89f23x5.h: 337: volatile bit WPUC3 @ ((unsigned)&WPUC*8)+3;
+"338
+[v _WPUC2 `Vb ~T0 @X0 1 e@3194 ]
+[; ;cms89f23x5.h: 338: volatile bit WPUC2 @ ((unsigned)&WPUC*8)+2;
+"339
+[v _WPUC1 `Vb ~T0 @X0 1 e@3193 ]
+[; ;cms89f23x5.h: 339: volatile bit WPUC1 @ ((unsigned)&WPUC*8)+1;
+"340
+[v _WPUC0 `Vb ~T0 @X0 1 e@3192 ]
+[; ;cms89f23x5.h: 340: volatile bit WPUC0 @ ((unsigned)&WPUC*8)+0;
+"344
+[v _WPUD7 `Vb ~T0 @X0 1 e@3119 ]
+[; ;cms89f23x5.h: 344: volatile bit WPUD7 @ ((unsigned)&WPUD*8)+7;
+"345
+[v _WPUD6 `Vb ~T0 @X0 1 e@3118 ]
+[; ;cms89f23x5.h: 345: volatile bit WPUD6 @ ((unsigned)&WPUD*8)+6;
+"346
+[v _WPUD5 `Vb ~T0 @X0 1 e@3117 ]
+[; ;cms89f23x5.h: 346: volatile bit WPUD5 @ ((unsigned)&WPUD*8)+5;
+"347
+[v _WPUD4 `Vb ~T0 @X0 1 e@3116 ]
+[; ;cms89f23x5.h: 347: volatile bit WPUD4 @ ((unsigned)&WPUD*8)+4;
+"348
+[v _WPUD3 `Vb ~T0 @X0 1 e@3115 ]
+[; ;cms89f23x5.h: 348: volatile bit WPUD3 @ ((unsigned)&WPUD*8)+3;
+"349
+[v _WPUD2 `Vb ~T0 @X0 1 e@3114 ]
+[; ;cms89f23x5.h: 349: volatile bit WPUD2 @ ((unsigned)&WPUD*8)+2;
+"350
+[v _WPUD1 `Vb ~T0 @X0 1 e@3113 ]
+[; ;cms89f23x5.h: 350: volatile bit WPUD1 @ ((unsigned)&WPUD*8)+1;
+"351
+[v _WPUD0 `Vb ~T0 @X0 1 e@3112 ]
+[; ;cms89f23x5.h: 351: volatile bit WPUD0 @ ((unsigned)&WPUD*8)+0;
+"354
+[v _WPDA7 `Vb ~T0 @X0 1 e@1103 ]
+[; ;cms89f23x5.h: 354: volatile bit WPDA7 @ ((unsigned)&WPDA*8)+7;
+"355
+[v _WPDA6 `Vb ~T0 @X0 1 e@1102 ]
+[; ;cms89f23x5.h: 355: volatile bit WPDA6 @ ((unsigned)&WPDA*8)+6;
+"356
+[v _WPDA5 `Vb ~T0 @X0 1 e@1101 ]
+[; ;cms89f23x5.h: 356: volatile bit WPDA5 @ ((unsigned)&WPDA*8)+5;
+"357
+[v _WPDA4 `Vb ~T0 @X0 1 e@1100 ]
+[; ;cms89f23x5.h: 357: volatile bit WPDA4 @ ((unsigned)&WPDA*8)+4;
+"358
+[v _WPDA3 `Vb ~T0 @X0 1 e@1099 ]
+[; ;cms89f23x5.h: 358: volatile bit WPDA3 @ ((unsigned)&WPDA*8)+3;
+"359
+[v _WPDA2 `Vb ~T0 @X0 1 e@1098 ]
+[; ;cms89f23x5.h: 359: volatile bit WPDA2 @ ((unsigned)&WPDA*8)+2;
+"360
+[v _WPDA1 `Vb ~T0 @X0 1 e@1097 ]
+[; ;cms89f23x5.h: 360: volatile bit WPDA1 @ ((unsigned)&WPDA*8)+1;
+"361
+[v _WPDA0 `Vb ~T0 @X0 1 e@1096 ]
+[; ;cms89f23x5.h: 361: volatile bit WPDA0 @ ((unsigned)&WPDA*8)+0;
+"364
+[v _WPDB7 `Vb ~T0 @X0 1 e@2111 ]
+[; ;cms89f23x5.h: 364: volatile bit WPDB7 @ ((unsigned)&WPDB*8)+7;
+"365
+[v _WPDB6 `Vb ~T0 @X0 1 e@2110 ]
+[; ;cms89f23x5.h: 365: volatile bit WPDB6 @ ((unsigned)&WPDB*8)+6;
+"366
+[v _WPDB5 `Vb ~T0 @X0 1 e@2109 ]
+[; ;cms89f23x5.h: 366: volatile bit WPDB5 @ ((unsigned)&WPDB*8)+5;
+"367
+[v _WPDB4 `Vb ~T0 @X0 1 e@2108 ]
+[; ;cms89f23x5.h: 367: volatile bit WPDB4 @ ((unsigned)&WPDB*8)+4;
+"368
+[v _WPDB3 `Vb ~T0 @X0 1 e@2107 ]
+[; ;cms89f23x5.h: 368: volatile bit WPDB3 @ ((unsigned)&WPDB*8)+3;
+"369
+[v _WPDB2 `Vb ~T0 @X0 1 e@2106 ]
+[; ;cms89f23x5.h: 369: volatile bit WPDB2 @ ((unsigned)&WPDB*8)+2;
+"370
+[v _WPDB1 `Vb ~T0 @X0 1 e@2105 ]
+[; ;cms89f23x5.h: 370: volatile bit WPDB1 @ ((unsigned)&WPDB*8)+1;
+"371
+[v _WPDB0 `Vb ~T0 @X0 1 e@2104 ]
+[; ;cms89f23x5.h: 371: volatile bit WPDB0 @ ((unsigned)&WPDB*8)+0;
+"374
+[v _WPDC7 `Vb ~T0 @X0 1 e@2119 ]
+[; ;cms89f23x5.h: 374: volatile bit WPDC7 @ ((unsigned)&WPDC*8)+7;
+"375
+[v _WPDC6 `Vb ~T0 @X0 1 e@2118 ]
+[; ;cms89f23x5.h: 375: volatile bit WPDC6 @ ((unsigned)&WPDC*8)+6;
+"376
+[v _WPDC5 `Vb ~T0 @X0 1 e@2117 ]
+[; ;cms89f23x5.h: 376: volatile bit WPDC5 @ ((unsigned)&WPDC*8)+5;
+"377
+[v _WPDC4 `Vb ~T0 @X0 1 e@2116 ]
+[; ;cms89f23x5.h: 377: volatile bit WPDC4 @ ((unsigned)&WPDC*8)+4;
+"378
+[v _WPDC3 `Vb ~T0 @X0 1 e@2115 ]
+[; ;cms89f23x5.h: 378: volatile bit WPDC3 @ ((unsigned)&WPDC*8)+3;
+"379
+[v _WPDC2 `Vb ~T0 @X0 1 e@2114 ]
+[; ;cms89f23x5.h: 379: volatile bit WPDC2 @ ((unsigned)&WPDC*8)+2;
+"380
+[v _WPDC1 `Vb ~T0 @X0 1 e@2113 ]
+[; ;cms89f23x5.h: 380: volatile bit WPDC1 @ ((unsigned)&WPDC*8)+1;
+"381
+[v _WPDC0 `Vb ~T0 @X0 1 e@2112 ]
+[; ;cms89f23x5.h: 381: volatile bit WPDC0 @ ((unsigned)&WPDC*8)+0;
+"384
+[v _WPDD7 `Vb ~T0 @X0 1 e@2127 ]
+[; ;cms89f23x5.h: 384: volatile bit WPDD7 @ ((unsigned)&WPDD*8)+7;
+"385
+[v _WPDD6 `Vb ~T0 @X0 1 e@2126 ]
+[; ;cms89f23x5.h: 385: volatile bit WPDD6 @ ((unsigned)&WPDD*8)+6;
+"386
+[v _WPDD5 `Vb ~T0 @X0 1 e@2125 ]
+[; ;cms89f23x5.h: 386: volatile bit WPDD5 @ ((unsigned)&WPDD*8)+5;
+"387
+[v _WPDD4 `Vb ~T0 @X0 1 e@2124 ]
+[; ;cms89f23x5.h: 387: volatile bit WPDD4 @ ((unsigned)&WPDD*8)+4;
+"388
+[v _WPDD3 `Vb ~T0 @X0 1 e@2123 ]
+[; ;cms89f23x5.h: 388: volatile bit WPDD3 @ ((unsigned)&WPDD*8)+3;
+"389
+[v _WPDD2 `Vb ~T0 @X0 1 e@2122 ]
+[; ;cms89f23x5.h: 389: volatile bit WPDD2 @ ((unsigned)&WPDD*8)+2;
+"390
+[v _WPDD1 `Vb ~T0 @X0 1 e@2121 ]
+[; ;cms89f23x5.h: 390: volatile bit WPDD1 @ ((unsigned)&WPDD*8)+1;
+"391
+[v _WPDD0 `Vb ~T0 @X0 1 e@2120 ]
+[; ;cms89f23x5.h: 391: volatile bit WPDD0 @ ((unsigned)&WPDD*8)+0;
+"394
+[v _RC1IE `Vb ~T0 @X0 1 e@1127 ]
+[; ;cms89f23x5.h: 394: volatile bit RC1IE @ ((unsigned)&PIE1*8)+7;
+"395
+[v _TX1IE `Vb ~T0 @X0 1 e@1126 ]
+[; ;cms89f23x5.h: 395: volatile bit TX1IE @ ((unsigned)&PIE1*8)+6;
+"396
+[v _RC0IE `Vb ~T0 @X0 1 e@1125 ]
+[; ;cms89f23x5.h: 396: volatile bit RC0IE @ ((unsigned)&PIE1*8)+5;
+"397
+[v _TX0IE `Vb ~T0 @X0 1 e@1124 ]
+[; ;cms89f23x5.h: 397: volatile bit TX0IE @ ((unsigned)&PIE1*8)+4;
+"398
+[v _EEIE `Vb ~T0 @X0 1 e@1123 ]
+[; ;cms89f23x5.h: 398: volatile bit EEIE @ ((unsigned)&PIE1*8)+3;
+"399
+[v _ADIE `Vb ~T0 @X0 1 e@1122 ]
+[; ;cms89f23x5.h: 399: volatile bit ADIE @ ((unsigned)&PIE1*8)+2;
+"400
+[v _TMR2IE `Vb ~T0 @X0 1 e@1121 ]
+[; ;cms89f23x5.h: 400: volatile bit TMR2IE @ ((unsigned)&PIE1*8)+1;
+"401
+[v _TMR1IE `Vb ~T0 @X0 1 e@1120 ]
+[; ;cms89f23x5.h: 401: volatile bit TMR1IE @ ((unsigned)&PIE1*8)+0;
+"406
+[v _IRCF2 `Vb ~T0 @X0 1 e@1150 ]
+[; ;cms89f23x5.h: 406: volatile bit IRCF2 @ ((unsigned)&OSCCON*8)+6;
+"407
+[v _IRCF1 `Vb ~T0 @X0 1 e@1149 ]
+[; ;cms89f23x5.h: 407: volatile bit IRCF1 @ ((unsigned)&OSCCON*8)+5;
+"408
+[v _IRCF0 `Vb ~T0 @X0 1 e@1148 ]
+[; ;cms89f23x5.h: 408: volatile bit IRCF0 @ ((unsigned)&OSCCON*8)+4;
+"409
+[v _SCS `Vb ~T0 @X0 1 e@1144 ]
+[; ;cms89f23x5.h: 409: volatile bit SCS @ ((unsigned)&OSCCON*8)+0;
+"413
+[v _TUN6 `Vb ~T0 @X0 1 e@1158 ]
+[; ;cms89f23x5.h: 413: volatile bit TUN6 @ ((unsigned)&OSCTUNE*8)+6;
+"414
+[v _TUN5 `Vb ~T0 @X0 1 e@1157 ]
+[; ;cms89f23x5.h: 414: volatile bit TUN5 @ ((unsigned)&OSCTUNE*8)+5;
+"415
+[v _TUN4 `Vb ~T0 @X0 1 e@1156 ]
+[; ;cms89f23x5.h: 415: volatile bit TUN4 @ ((unsigned)&OSCTUNE*8)+4;
+"416
+[v _TUN3 `Vb ~T0 @X0 1 e@1155 ]
+[; ;cms89f23x5.h: 416: volatile bit TUN3 @ ((unsigned)&OSCTUNE*8)+3;
+"417
+[v _TUN2 `Vb ~T0 @X0 1 e@1154 ]
+[; ;cms89f23x5.h: 417: volatile bit TUN2 @ ((unsigned)&OSCTUNE*8)+2;
+"418
+[v _TUN1 `Vb ~T0 @X0 1 e@1153 ]
+[; ;cms89f23x5.h: 418: volatile bit TUN1 @ ((unsigned)&OSCTUNE*8)+1;
+"419
+[v _TUN0 `Vb ~T0 @X0 1 e@1152 ]
+[; ;cms89f23x5.h: 419: volatile bit TUN0 @ ((unsigned)&OSCTUNE*8)+0;
+"422
+[v _IOCB7 `Vb ~T0 @X0 1 e@1207 ]
+[; ;cms89f23x5.h: 422: volatile bit IOCB7 @ ((unsigned)&IOCB*8)+7;
+"423
+[v _IOCB6 `Vb ~T0 @X0 1 e@1206 ]
+[; ;cms89f23x5.h: 423: volatile bit IOCB6 @ ((unsigned)&IOCB*8)+6;
+"424
+[v _IOCB5 `Vb ~T0 @X0 1 e@1205 ]
+[; ;cms89f23x5.h: 424: volatile bit IOCB5 @ ((unsigned)&IOCB*8)+5;
+"425
+[v _IOCB4 `Vb ~T0 @X0 1 e@1204 ]
+[; ;cms89f23x5.h: 425: volatile bit IOCB4 @ ((unsigned)&IOCB*8)+4;
+"426
+[v _IOCB3 `Vb ~T0 @X0 1 e@1203 ]
+[; ;cms89f23x5.h: 426: volatile bit IOCB3 @ ((unsigned)&IOCB*8)+3;
+"427
+[v _IOCB2 `Vb ~T0 @X0 1 e@1202 ]
+[; ;cms89f23x5.h: 427: volatile bit IOCB2 @ ((unsigned)&IOCB*8)+2;
+"428
+[v _IOCB1 `Vb ~T0 @X0 1 e@1201 ]
+[; ;cms89f23x5.h: 428: volatile bit IOCB1 @ ((unsigned)&IOCB*8)+1;
+"429
+[v _IOCB0 `Vb ~T0 @X0 1 e@1200 ]
+[; ;cms89f23x5.h: 429: volatile bit IOCB0 @ ((unsigned)&IOCB*8)+0;
+"433
+[v _CSRC1 `Vb ~T0 @X0 1 e@1215 ]
+[; ;cms89f23x5.h: 433: volatile bit CSRC1 @ ((unsigned)&TXSTA1*8)+7;
+"434
+[v _TX9EN1 `Vb ~T0 @X0 1 e@1214 ]
+[; ;cms89f23x5.h: 434: volatile bit TX9EN1 @ ((unsigned)&TXSTA1*8)+6;
+"435
+[v _TXEN1 `Vb ~T0 @X0 1 e@1213 ]
+[; ;cms89f23x5.h: 435: volatile bit TXEN1 @ ((unsigned)&TXSTA1*8)+5;
+"436
+[v _SYNC1 `Vb ~T0 @X0 1 e@1212 ]
+[; ;cms89f23x5.h: 436: volatile bit SYNC1 @ ((unsigned)&TXSTA1*8)+4;
+"437
+[v _BRGHEN1 `Vb ~T0 @X0 1 e@1210 ]
+[; ;cms89f23x5.h: 437: volatile bit BRGHEN1 @ ((unsigned)&TXSTA1*8)+2;
+"438
+[v _TRMT1 `Vb ~T0 @X0 1 e@1209 ]
+[; ;cms89f23x5.h: 438: volatile bit TRMT1 @ ((unsigned)&TXSTA1*8)+1;
+"439
+[v _TX9D1 `Vb ~T0 @X0 1 e@1208 ]
+[; ;cms89f23x5.h: 439: volatile bit TX9D1 @ ((unsigned)&TXSTA1*8)+0;
+"443
+[v _CSRC `Vb ~T0 @X0 1 e@1223 ]
+[; ;cms89f23x5.h: 443: volatile bit CSRC @ ((unsigned)&TXSTA0*8)+7;
+"444
+[v _TX9EN0 `Vb ~T0 @X0 1 e@1222 ]
+[; ;cms89f23x5.h: 444: volatile bit TX9EN0 @ ((unsigned)&TXSTA0*8)+6;
+"445
+[v _TXEN `Vb ~T0 @X0 1 e@1221 ]
+[; ;cms89f23x5.h: 445: volatile bit TXEN @ ((unsigned)&TXSTA0*8)+5;
+"446
+[v _SYNC `Vb ~T0 @X0 1 e@1220 ]
+[; ;cms89f23x5.h: 446: volatile bit SYNC @ ((unsigned)&TXSTA0*8)+4;
+"447
+[v _BRGHEN0 `Vb ~T0 @X0 1 e@1218 ]
+[; ;cms89f23x5.h: 447: volatile bit BRGHEN0 @ ((unsigned)&TXSTA0*8)+2;
+"448
+[v _TRMT `Vb ~T0 @X0 1 e@1217 ]
+[; ;cms89f23x5.h: 448: volatile bit TRMT @ ((unsigned)&TXSTA0*8)+1;
+"449
+[v _TX9D `Vb ~T0 @X0 1 e@1216 ]
+[; ;cms89f23x5.h: 449: volatile bit TX9D @ ((unsigned)&TXSTA0*8)+0;
+"453
+[v _ADFM `Vb ~T0 @X0 1 e@1279 ]
+[; ;cms89f23x5.h: 453: volatile bit ADFM @ ((unsigned)&ADCON1*8)+7;
+"454
+[v _CHS4 `Vb ~T0 @X0 1 e@1278 ]
+[; ;cms89f23x5.h: 454: volatile bit CHS4 @ ((unsigned)&ADCON1*8)+6;
+"457
+[v _SWDTEN `Vb ~T0 @X0 1 e@2088 ]
+[; ;cms89f23x5.h: 457: volatile bit SWDTEN @ ((unsigned)&WDTCON*8)+0;
+"460
+[v _COM29EN `Vb ~T0 @X0 1 e@2207 ]
+[; ;cms89f23x5.h: 460: volatile bit COM29EN @ ((unsigned)&LCDCON3*8)+7;
+"461
+[v _COM28EN `Vb ~T0 @X0 1 e@2206 ]
+[; ;cms89f23x5.h: 461: volatile bit COM28EN @ ((unsigned)&LCDCON3*8)+6;
+"462
+[v _COM27EN `Vb ~T0 @X0 1 e@2205 ]
+[; ;cms89f23x5.h: 462: volatile bit COM27EN @ ((unsigned)&LCDCON3*8)+5;
+"463
+[v _COM26EN `Vb ~T0 @X0 1 e@2204 ]
+[; ;cms89f23x5.h: 463: volatile bit COM26EN @ ((unsigned)&LCDCON3*8)+4;
+"464
+[v _COM25EN `Vb ~T0 @X0 1 e@2203 ]
+[; ;cms89f23x5.h: 464: volatile bit COM25EN @ ((unsigned)&LCDCON3*8)+3;
+"465
+[v _COM24EN `Vb ~T0 @X0 1 e@2202 ]
+[; ;cms89f23x5.h: 465: volatile bit COM24EN @ ((unsigned)&LCDCON3*8)+2;
+"466
+[v _COM23EN `Vb ~T0 @X0 1 e@2201 ]
+[; ;cms89f23x5.h: 466: volatile bit COM23EN @ ((unsigned)&LCDCON3*8)+1;
+"467
+[v _COM22EN `Vb ~T0 @X0 1 e@2200 ]
+[; ;cms89f23x5.h: 467: volatile bit COM22EN @ ((unsigned)&LCDCON3*8)+0;
+"470
+[v _LCDEN `Vb ~T0 @X0 1 e@2215 ]
+[; ;cms89f23x5.h: 470: volatile bit LCDEN @ ((unsigned)&LCDCON*8)+7;
+"471
+[v _LEDEN `Vb ~T0 @X0 1 e@2214 ]
+[; ;cms89f23x5.h: 471: volatile bit LEDEN @ ((unsigned)&LCDCON*8)+6;
+"472
+[v _LCDF `Vb ~T0 @X0 1 e@2212 ]
+[; ;cms89f23x5.h: 472: volatile bit LCDF @ ((unsigned)&LCDCON*8)+4;
+"473
+[v _LEDCLK3 `Vb ~T0 @X0 1 e@2211 ]
+[; ;cms89f23x5.h: 473: volatile bit LEDCLK3 @ ((unsigned)&LCDCON*8)+3;
+"474
+[v _LEDCLK2 `Vb ~T0 @X0 1 e@2210 ]
+[; ;cms89f23x5.h: 474: volatile bit LEDCLK2 @ ((unsigned)&LCDCON*8)+2;
+"475
+[v _LEDCLK1 `Vb ~T0 @X0 1 e@2209 ]
+[; ;cms89f23x5.h: 475: volatile bit LEDCLK1 @ ((unsigned)&LCDCON*8)+1;
+"476
+[v _LEDCLK0 `Vb ~T0 @X0 1 e@2208 ]
+[; ;cms89f23x5.h: 476: volatile bit LEDCLK0 @ ((unsigned)&LCDCON*8)+0;
+"480
+[v _COM7EN `Vb ~T0 @X0 1 e@3207 ]
+[; ;cms89f23x5.h: 480: volatile bit COM7EN @ ((unsigned)&LCDCON0*8)+7;
+"481
+[v _COM6EN `Vb ~T0 @X0 1 e@3206 ]
+[; ;cms89f23x5.h: 481: volatile bit COM6EN @ ((unsigned)&LCDCON0*8)+6;
+"482
+[v _COM5EN `Vb ~T0 @X0 1 e@3205 ]
+[; ;cms89f23x5.h: 482: volatile bit COM5EN @ ((unsigned)&LCDCON0*8)+5;
+"483
+[v _COM4EN `Vb ~T0 @X0 1 e@3204 ]
+[; ;cms89f23x5.h: 483: volatile bit COM4EN @ ((unsigned)&LCDCON0*8)+4;
+"484
+[v _COM3EN `Vb ~T0 @X0 1 e@3203 ]
+[; ;cms89f23x5.h: 484: volatile bit COM3EN @ ((unsigned)&LCDCON0*8)+3;
+"485
+[v _COM2EN `Vb ~T0 @X0 1 e@3202 ]
+[; ;cms89f23x5.h: 485: volatile bit COM2EN @ ((unsigned)&LCDCON0*8)+2;
+"486
+[v _COM1EN `Vb ~T0 @X0 1 e@3201 ]
+[; ;cms89f23x5.h: 486: volatile bit COM1EN @ ((unsigned)&LCDCON0*8)+1;
+"487
+[v _COM0EN `Vb ~T0 @X0 1 e@3200 ]
+[; ;cms89f23x5.h: 487: volatile bit COM0EN @ ((unsigned)&LCDCON0*8)+0;
+"490
+[v _COM15EN `Vb ~T0 @X0 1 e@3215 ]
+[; ;cms89f23x5.h: 490: volatile bit COM15EN @ ((unsigned)&LCDCON1*8)+7;
+"491
+[v _COM14EN `Vb ~T0 @X0 1 e@3214 ]
+[; ;cms89f23x5.h: 491: volatile bit COM14EN @ ((unsigned)&LCDCON1*8)+6;
+"492
+[v _COM13EN `Vb ~T0 @X0 1 e@3213 ]
+[; ;cms89f23x5.h: 492: volatile bit COM13EN @ ((unsigned)&LCDCON1*8)+5;
+"493
+[v _COM12EN `Vb ~T0 @X0 1 e@3212 ]
+[; ;cms89f23x5.h: 493: volatile bit COM12EN @ ((unsigned)&LCDCON1*8)+4;
+"494
+[v _COM11EN `Vb ~T0 @X0 1 e@3211 ]
+[; ;cms89f23x5.h: 494: volatile bit COM11EN @ ((unsigned)&LCDCON1*8)+3;
+"495
+[v _COM10EN `Vb ~T0 @X0 1 e@3210 ]
+[; ;cms89f23x5.h: 495: volatile bit COM10EN @ ((unsigned)&LCDCON1*8)+2;
+"496
+[v _COM9EN `Vb ~T0 @X0 1 e@3209 ]
+[; ;cms89f23x5.h: 496: volatile bit COM9EN @ ((unsigned)&LCDCON1*8)+1;
+"497
+[v _COM8EN `Vb ~T0 @X0 1 e@3208 ]
+[; ;cms89f23x5.h: 497: volatile bit COM8EN @ ((unsigned)&LCDCON1*8)+0;
+"501
+[v _LCDISEL1 `Vb ~T0 @X0 1 e@3263 ]
+[; ;cms89f23x5.h: 501: volatile bit LCDISEL1 @ ((unsigned)&LCDCON2*8)+7;
+"502
+[v _LCDISEL0 `Vb ~T0 @X0 1 e@3262 ]
+[; ;cms89f23x5.h: 502: volatile bit LCDISEL0 @ ((unsigned)&LCDCON2*8)+6;
+"503
+[v _COM21EN `Vb ~T0 @X0 1 e@3261 ]
+[; ;cms89f23x5.h: 503: volatile bit COM21EN @ ((unsigned)&LCDCON2*8)+5;
+"504
+[v _COM20EN `Vb ~T0 @X0 1 e@3260 ]
+[; ;cms89f23x5.h: 504: volatile bit COM20EN @ ((unsigned)&LCDCON2*8)+4;
+"505
+[v _COM19EN `Vb ~T0 @X0 1 e@3259 ]
+[; ;cms89f23x5.h: 505: volatile bit COM19EN @ ((unsigned)&LCDCON2*8)+3;
+"506
+[v _COM18EN `Vb ~T0 @X0 1 e@3258 ]
+[; ;cms89f23x5.h: 506: volatile bit COM18EN @ ((unsigned)&LCDCON2*8)+2;
+"507
+[v _COM17EN `Vb ~T0 @X0 1 e@3257 ]
+[; ;cms89f23x5.h: 507: volatile bit COM17EN @ ((unsigned)&LCDCON2*8)+1;
+"508
+[v _COM16EN `Vb ~T0 @X0 1 e@3256 ]
+[; ;cms89f23x5.h: 508: volatile bit COM16EN @ ((unsigned)&LCDCON2*8)+0;
+"512
+[v _SEGDRI3 `Vb ~T0 @X0 1 e@3239 ]
+[; ;cms89f23x5.h: 512: volatile bit SEGDRI3 @ ((unsigned)&SEGEN2*8)+7;
+"513
+[v _SEGDRI2 `Vb ~T0 @X0 1 e@3238 ]
+[; ;cms89f23x5.h: 513: volatile bit SEGDRI2 @ ((unsigned)&SEGEN2*8)+6;
+"514
+[v _SEGDRI1 `Vb ~T0 @X0 1 e@3237 ]
+[; ;cms89f23x5.h: 514: volatile bit SEGDRI1 @ ((unsigned)&SEGEN2*8)+5;
+"515
+[v _SEGDRI0 `Vb ~T0 @X0 1 e@3236 ]
+[; ;cms89f23x5.h: 515: volatile bit SEGDRI0 @ ((unsigned)&SEGEN2*8)+4;
+"518
+[v _SEG15EN `Vb ~T0 @X0 1 e@3247 ]
+[; ;cms89f23x5.h: 518: volatile bit SEG15EN @ ((unsigned)&SEGEN1*8)+7;
+"519
+[v _SEG14EN `Vb ~T0 @X0 1 e@3246 ]
+[; ;cms89f23x5.h: 519: volatile bit SEG14EN @ ((unsigned)&SEGEN1*8)+6;
+"520
+[v _SEG13EN `Vb ~T0 @X0 1 e@3245 ]
+[; ;cms89f23x5.h: 520: volatile bit SEG13EN @ ((unsigned)&SEGEN1*8)+5;
+"521
+[v _SEG12EN `Vb ~T0 @X0 1 e@3244 ]
+[; ;cms89f23x5.h: 521: volatile bit SEG12EN @ ((unsigned)&SEGEN1*8)+4;
+"522
+[v _SEG11EN `Vb ~T0 @X0 1 e@3243 ]
+[; ;cms89f23x5.h: 522: volatile bit SEG11EN @ ((unsigned)&SEGEN1*8)+3;
+"523
+[v _SEG10EN `Vb ~T0 @X0 1 e@3242 ]
+[; ;cms89f23x5.h: 523: volatile bit SEG10EN @ ((unsigned)&SEGEN1*8)+2;
+"524
+[v _SEG9EN `Vb ~T0 @X0 1 e@3241 ]
+[; ;cms89f23x5.h: 524: volatile bit SEG9EN @ ((unsigned)&SEGEN1*8)+1;
+"525
+[v _SEG8EN `Vb ~T0 @X0 1 e@3240 ]
+[; ;cms89f23x5.h: 525: volatile bit SEG8EN @ ((unsigned)&SEGEN1*8)+0;
+"528
+[v _SEG7EN `Vb ~T0 @X0 1 e@3255 ]
+[; ;cms89f23x5.h: 528: volatile bit SEG7EN @ ((unsigned)&SEGEN0*8)+7;
+"529
+[v _SEG6EN `Vb ~T0 @X0 1 e@3254 ]
+[; ;cms89f23x5.h: 529: volatile bit SEG6EN @ ((unsigned)&SEGEN0*8)+6;
+"530
+[v _SEG5EN `Vb ~T0 @X0 1 e@3253 ]
+[; ;cms89f23x5.h: 530: volatile bit SEG5EN @ ((unsigned)&SEGEN0*8)+5;
+"531
+[v _SEG4EN `Vb ~T0 @X0 1 e@3252 ]
+[; ;cms89f23x5.h: 531: volatile bit SEG4EN @ ((unsigned)&SEGEN0*8)+4;
+"532
+[v _SEG3EN `Vb ~T0 @X0 1 e@3251 ]
+[; ;cms89f23x5.h: 532: volatile bit SEG3EN @ ((unsigned)&SEGEN0*8)+3;
+"533
+[v _SEG2EN `Vb ~T0 @X0 1 e@3250 ]
+[; ;cms89f23x5.h: 533: volatile bit SEG2EN @ ((unsigned)&SEGEN0*8)+2;
+"534
+[v _SEG1EN `Vb ~T0 @X0 1 e@3249 ]
+[; ;cms89f23x5.h: 534: volatile bit SEG1EN @ ((unsigned)&SEGEN0*8)+1;
+"535
+[v _SEG0EN `Vb ~T0 @X0 1 e@3248 ]
+[; ;cms89f23x5.h: 535: volatile bit SEG0EN @ ((unsigned)&SEGEN0*8)+0;
+"540
+[v _EEPGD `Vb ~T0 @X0 1 e@3175 ]
+[; ;cms89f23x5.h: 540: volatile bit EEPGD @ ((unsigned)&EECON1*8)+7;
+"541
+[v _WRERR `Vb ~T0 @X0 1 e@3171 ]
+[; ;cms89f23x5.h: 541: volatile bit WRERR @ ((unsigned)&EECON1*8)+3;
+"542
+[v _WREN `Vb ~T0 @X0 1 e@3170 ]
+[; ;cms89f23x5.h: 542: volatile bit WREN @ ((unsigned)&EECON1*8)+2;
+"543
+[v _WR `Vb ~T0 @X0 1 e@3169 ]
+[; ;cms89f23x5.h: 543: volatile bit WR @ ((unsigned)&EECON1*8)+1;
+"544
+[v _RD `Vb ~T0 @X0 1 e@3168 ]
+[; ;cms89f23x5.h: 544: volatile bit RD @ ((unsigned)&EECON1*8)+0;
+[; ;cms.h: 28: extern void __nop(void);
+[; ;cms.h: 76: extern unsigned int flash_read(unsigned short addr);
+[; ;cms.h: 150: extern __nonreentrant void _delay(unsigned long);
+[; ;cms.h: 184: extern unsigned char __resetbits;
+[; ;cms.h: 185: extern __bit __powerdown;
+[; ;cms.h: 186: extern __bit __timeout;
+[; ;board_define.h: 15: typedef
+[; ;board_define.h: 16: union
+[; ;board_define.h: 17: {
+[; ;board_define.h: 18: struct
+[; ;board_define.h: 19: {
+[; ;board_define.h: 20: unsigned b0:1;
+[; ;board_define.h: 21: unsigned b1:1;
+[; ;board_define.h: 22: unsigned b2:1;
+[; ;board_define.h: 23: unsigned b3:1;
+[; ;board_define.h: 24: unsigned b4:1;
+[; ;board_define.h: 25: unsigned b5:1;
+[; ;board_define.h: 26: unsigned b6:1;
+[; ;board_define.h: 27: unsigned b7:1;
+[; ;board_define.h: 28: }one;
+[; ;board_define.h: 29: unsigned char all;
+[; ;board_define.h: 30: }bits;
+[; ;board_define.h: 34: typedef signed char int8;
+[; ;board_define.h: 35: typedef signed int int16;
+[; ;board_define.h: 36: typedef signed long int32;
+[; ;board_define.h: 37: typedef unsigned char uint8;
+[; ;board_define.h: 38: typedef unsigned int uint16;
+[; ;board_define.h: 39: typedef unsigned long uint32;
+[; ;board_define.h: 41: typedef volatile bit v_bit;
+[; ;board_define.h: 42: typedef volatile unsigned char v_uint8;
+[; ;board_define.h: 43: typedef volatile unsigned int v_uint16;
+[; ;var_global.h: 8: extern v_bit b_MainLoop_8ms;
+[; ;var_global.h: 9: extern v_bit b_MainLoop_500ms;
+[; ;var_global.h: 10: extern v_bit b_LedCol;
+[; ;var_global.h: 12: extern v_uint8 MainTime_8ms;
+[; ;var_global.h: 13: extern v_uint8 MainTime_10ms;
+[; ;var_global.h: 14: extern v_uint8 MainTime_500ms;
+[; ;var_global.h: 15: extern v_uint8 LedCol_500ms;
+[; ;var_global.h: 16: extern v_uint8 WaitCycle;
+[; ;var_global.h: 20: extern v_bit b_ShortOn;
+[; ;var_global.h: 21: extern v_uint8 ShortCntL;
+[; ;var_global.h: 22: extern v_uint8 ShortCntM;
+[; ;var_global.h: 24: extern v_uint8 PresetTimeS;
+[; ;var_global.h: 25: extern v_uint8 PresetTimeM;
+[; ;var_global.h: 26: extern v_uint8 PresetTimeH;
+[; ;var_global.h: 27: extern v_uint8 KeepWarmS;
+[; ;var_global.h: 28: extern v_uint8 KeepWarmM;
+[; ;var_global.h: 29: extern v_uint8 KeepWarmH;
+[; ;var_global.h: 30: extern v_uint8 WorkTimeS;
+[; ;var_global.h: 31: extern v_uint8 WorkTimeM;
+[; ;var_global.h: 32: extern v_uint8 WorkTimeH;
+[; ;var_global.h: 33: extern v_uint8 CountTimeS;
+[; ;var_global.h: 35: extern v_bit b_Standby;
+[; ;var_global.h: 36: extern v_uint8 StandbyTimeCnt;
+[; ;var_global.h: 37: extern v_uint8 ErrorSoundTime;
+[; ;var_global.h: 39: extern v_bit b_JudgeLidOk;
+[; ;var_global.h: 40: extern v_uint8 JudgeLidCnt;
+[; ;var_global.h: 41: extern v_uint8 JudgeLidMin;
+[; ;var_global.h: 44: extern v_bit b_TestShow;
+[; ;var_global.h: 45: extern v_uint8 TestShow;
+[; ;var_global.h: 46: extern v_uint8 SendShow;
+[; ;var_global.h: 50: extern v_uint8 SysStatus;
+[; ;var_global.h: 51: extern v_uint8 ChooseFun;
+[; ;var_global.h: 52: extern v_uint8 ChooseFunSave;
+[; ;var_global.h: 53: extern v_uint8 WorkStage;
+[; ;var_global.h: 54: extern v_uint8 TasteCase;
+[; ;var_global.h: 55: extern v_uint8 PresetState;
+[; ;var_global.h: 56: extern v_uint8 ErrorCode;
+[; ;var_global.h: 57: extern v_uint8 WorkStep;
+[; ;var_global.h: 58: extern v_uint8 CountDownTime;
+[; ;var_global.h: 59: extern v_uint8 CountDownTimeSave;
+[; ;var_global.h: 60: extern v_uint8 FactoryTestData;
+[; ;var_global.h: 61: extern v_uint8 PressureData;
+[; ;var_global.h: 62: extern v_uint8 PressureCountTime;
+[; ;var_global.h: 63: extern v_bit b_AutoKeepWarm;
+[; ;var_global.h: 67: extern v_uint8 BuzCnt;
+[; ;var_global.h: 68: extern v_uint8 BuzUpTime;
+[; ;var_global.h: 69: extern v_uint8 BuzDownTime;
+[; ;var_global.h: 70: extern v_uint8 BuzUpTemp;
+[; ;var_global.h: 71: extern v_uint8 BuzDownTemp;
+[; ;var_global.h: 74: extern v_uint8 KeyFlag;
+[; ;var_global.h: 75: extern v_uint16 KeyData;
+[; ;var_global.h: 76: extern v_uint8 LongKeyCount;
+[; ;var_global.h: 79: extern v_uint8 DispData[];
+[; ;var_global.h: 80: extern v_uint8 HorseShowTime160ms;
+[; ;var_global.h: 81: extern v_uint8 HorseCount;
+[; ;var_global.h: 82: extern v_uint8 HourBuf;
+[; ;var_global.h: 83: extern v_uint8 MinBuf;
+[; ;var_global.h: 84: extern v_uint8 Led_Step_100C;
+[; ;var_global.h: 87: extern v_uint8 Ad_Bot;
+[; ;var_global.h: 88: extern v_uint8 Ad_Lid;
+[; ;var_global.h: 89: extern v_uint8 Ad_Pressure;
+[; ;var_global.h: 90: extern v_uint8 Bot_Temp;
+[; ;var_global.h: 92: extern v_bit b_AdBot_OK;
+[; ;var_global.h: 93: extern v_uint8 Ad_Bot_Raw;
+[; ;var_global.h: 94: extern v_uint8 Ad_Pressure_Raw;
+[; ;var_global.h: 97: extern v_bit b_LidClosed;
+[; ;var_global.h: 98: extern v_bit b_PressureOn;
+[; ;var_global.h: 101: extern v_bit b_BotTempOut;
+[; ;var_global.h: 102: extern v_bit b_Opencook_OK;
+[; ;var_global.h: 103: extern v_uint8 TotalTimeSave;
+[; ;var_global.h: 107: extern v_bit b_BotHeatEn;
+[; ;var_global.h: 108: extern v_bit b_BotHeatOn;
+[; ;var_global.h: 109: extern v_uint8 HeatCnt500ms;
+[; ;var_global.h: 110: extern v_uint8 RelOnCnt;
+[; ;var_global.h: 111: extern v_uint8 RelOffCnt;
+[; ;var_global.h: 114: extern v_bit b_ZeroWave_OK;
+[; ;var_global.h: 115: extern v_bit b_Zero;
+[; ;var_global.h: 116: extern v_bit b_Zero_EN;
+[; ;var_global.h: 117: extern v_uint8 ZeroDeley;
+[; ;var_global.h: 118: extern v_bit b_ZeroDeley_OK;
+[; ;var_global.h: 119: extern v_bit b_RelType;
+[; ;var_global.h: 120: extern v_uint16 ZeroTimesShow;
+[; ;var_global.h: 121: extern v_bit b_ZeroTimeout;
+[; ;var_global.h: 122: extern v_uint8 ZeroTimeoutCnt;
+[; ;var_global.h: 123: extern v_uint16 RelWaitCnt;
+[; ;var_global.h: 124: extern v_bit b_Rel_NoZero;
+[; ;var_global.h: 127: extern v_bit b_VolData_OK;
+[; ;var_global.h: 128: extern v_uint8 Ad_Vol_Raw;
+[; ;var_global.h: 129: extern v_uint8 Ad_Vol_Avg;
+[; ;var_global.h: 130: extern v_uint16 AC_Vol_Rms;
+[; ;var_global.h: 131: extern v_uint16 Ad_Vol_Sum;
+[; ;var_global.h: 132: extern v_uint8 Vrms_Level;
+[; ;var_global.h: 136: extern const uint8 Fc_ID_1;
+[; ;var_global.h: 137: extern const uint8 Fc_ID_2;
+[; ;var_global.h: 138: extern const uint8 Fc_ID_3;
+[; ;var_global.h: 139: extern const uint8 Fc_ID_4;
+[; ;var_global.h: 140: extern const uint8 Fc_ID_5;
+[; ;var_global.h: 141: extern const uint8 Fc_ID_6;
+[; ;var_global.h: 142: extern const uint8 Fc_ID_7;
+[; ;var_global.h: 143: extern const uint8 Fc_ID_8;
+[; ;var_global.h: 144: extern uint8 Fc_ID[8];
+[; ;var_global.h: 147: extern v_bit b_Auto_test;
+[; ;delay.h: 7: void DelayXus(unsigned int x);
+[; ;delay.h: 8: void DelayXms(unsigned int x);
+[; ;display.h: 303: void LED_Drive(void);
+[; ;display.h: 304: void LED_Task(void);
+[; ;display.h: 305: void Init_LED_Module(void);
+[; ;key.h: 153: void Key_Drive(void);
+[; ;key.h: 154: void Key_Task(void);
+[; ;key.h: 155: void Cancel(void);
+[; ;Sound.h: 29: void Sound_Deal(void);
+[; ;adc.h: 298: void Get_Lid_Data(void);
+[; ;adc.h: 299: void Get_Pressure_Switch_Data(void);
+[; ;adc.h: 300: void Get_AC_Voltage(void);
+[; ;adc.h: 301: void Get_AC_Rms(void);
+[; ;adc.h: 302: void Get_Zero(void);
+[; ;adc.h: 303: void Get_Temp_Data(void);
+[; ;adc.h: 304: uint8 Get_AD(uint8 ad_ch);
+[; ;error.h: 17: void Error_Deal(void);
+[; ;time.h: 7: void Time_Deal(void);
+[; ;cook.h: 14: void Cook_Task(void);
+[; ;cook.h: 15: void Relay_Duty_Control(void);
+[; ;cook.h: 16: void Operate_Relay_IO(void);
+"44 E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c
+[v _Init_PWM `(v ~T0 @X0 1 ef ]
+"45
+{
+[; ;main.c: 44: void Init_PWM(void)
+[; ;main.c: 45: {
+[e :U _Init_PWM ]
+[f ]
+[; ;main.c: 46: PR2 = 124;
+"46
+[e = _PR2 -> -> 124 `i `uc ]
+[; ;main.c: 47: CCPR0L = 0x3E;
+"47
+[e = _CCPR0L -> -> 62 `i `uc ]
+[; ;main.c: 48: PWMCON = 0b00100000;
+"48
+[e = _PWMCON -> -> 32 `i `uc ]
+[; ;main.c: 49: TMR2IF = 0;
+"49
+[e = _TMR2IF -> -> 0 `i `b ]
+[; ;main.c: 50: T2CKPS0 = 1;
+"50
+[e = _T2CKPS0 -> -> 1 `i `b ]
+[; ;main.c: 51: T2CKPS1 = 0;
+"51
+[e = _T2CKPS1 -> -> 0 `i `b ]
+[; ;main.c: 52: TMR2ON = 1;
+"52
+[e = _TMR2ON -> -> 1 `i `b ]
+[; ;main.c: 53: }
+"53
+[e :UE 3 ]
+}
+"63
+[v _Init_TMR1 `(v ~T0 @X0 1 ef ]
+"64
+{
+[; ;main.c: 63: void Init_TMR1(void)
+[; ;main.c: 64: {
+[e :U _Init_TMR1 ]
+[f ]
+[; ;main.c: 65: TMR1L = 0x30;
+"65
+[e = _TMR1L -> -> 48 `i `uc ]
+[; ;main.c: 66: TMR1H = 0xF8;
+"66
+[e = _TMR1H -> -> 248 `i `uc ]
+[; ;main.c: 67: TMR1IF = 0;
+"67
+[e = _TMR1IF -> -> 0 `i `b ]
+[; ;main.c: 68: TMR1IE = 1;
+"68
+[e = _TMR1IE -> -> 1 `i `b ]
+[; ;main.c: 69: T1CON = 0x01;
+"69
+[e = _T1CON -> -> 1 `i `uc ]
+[; ;main.c: 70: }
+"70
+[e :UE 4 ]
+}
+"72
+[v _Init_GPIO `(v ~T0 @X0 1 ef ]
+"73
+{
+[; ;main.c: 72: void Init_GPIO(void)
+[; ;main.c: 73: {
+[e :U _Init_GPIO ]
+[f ]
+[; ;main.c: 76: WPUA = 0B00000000;
+"76
+[e = _WPUA -> -> 0 `i `uc ]
+[; ;main.c: 77: WPUB = 0B00000000;
+"77
+[e = _WPUB -> -> 0 `i `uc ]
+[; ;main.c: 78: WPUC = 0B00000000;
+"78
+[e = _WPUC -> -> 0 `i `uc ]
+[; ;main.c: 79: WPUD = 0B00000000;
+"79
+[e = _WPUD -> -> 0 `i `uc ]
+[; ;main.c: 83: PORTA = 0B00000000;
+"83
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;main.c: 84: PORTB = 0B00000000;
+"84
+[e = _PORTB -> -> 0 `i `uc ]
+[; ;main.c: 85: PORTC = 0B00000000;
+"85
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;main.c: 86: PORTD = 0B00000000;
+"86
+[e = _PORTD -> -> 0 `i `uc ]
+[; ;main.c: 92: TRISA = 0B11111111;
+"92
+[e = _TRISA -> -> 255 `i `uc ]
+[; ;main.c: 93: TRISB = 0B11111111;
+"93
+[e = _TRISB -> -> 255 `i `uc ]
+[; ;main.c: 94: TRISC = 0B11111101;
+"94
+[e = _TRISC -> -> 253 `i `uc ]
+[; ;main.c: 95: TRISD = 0B11111111;
+"95
+[e = _TRISD -> -> 255 `i `uc ]
+[; ;main.c: 98: }
+"98
+[e :UE 5 ]
+}
+"100
+[v _Init_Var `(v ~T0 @X0 1 ef ]
+"101
+{
+[; ;main.c: 100: void Init_Var(void)
+[; ;main.c: 101: {
+[e :U _Init_Var ]
+[f ]
+[; ;main.c: 103: SysStatus = 6;
+"103
+[e = _SysStatus -> -> 6 `i `uc ]
+[; ;main.c: 104: AC_Vol_Rms = 220;
+"104
+[e = _AC_Vol_Rms -> -> 220 `i `ui ]
+[; ;main.c: 105: Vrms_Level = 3;
+"105
+[e = _Vrms_Level -> -> 3 `i `uc ]
+[; ;main.c: 106: }
+"106
+[e :UE 6 ]
+}
+"110
+[v _Init_System `(v ~T0 @X0 1 ef ]
+"111
+{
+[; ;main.c: 110: void Init_System(void)
+[; ;main.c: 111: {
+[e :U _Init_System ]
+[f ]
+[; ;main.c: 113: asm("nop");
+"113
+[; <" nop ;# ">
+[; ;main.c: 114: asm("clrwdt");
+"114
+[; <" clrwdt ;# ">
+[; ;main.c: 115: INTCON = 0;
+"115
+[e = _INTCON -> -> 0 `i `uc ]
+[; ;main.c: 116: OSCCON = 0X71;
+"116
+[e = _OSCCON -> -> 113 `i `uc ]
+[; ;main.c: 117: OPTION_REG = 0x03;
+"117
+[e = _OPTION_REG -> -> 3 `i `uc ]
+[; ;main.c: 120: Init_GPIO();
+"120
+[e ( _Init_GPIO ..  ]
+[; ;main.c: 121: Init_TMR1();
+"121
+[e ( _Init_TMR1 ..  ]
+[; ;main.c: 122: Init_PWM();
+"122
+[e ( _Init_PWM ..  ]
+[; ;main.c: 123: Init_LED_Module();
+"123
+[e ( _Init_LED_Module ..  ]
+[; ;main.c: 124: Init_Var();
+"124
+[e ( _Init_Var ..  ]
+[; ;main.c: 127: DelayXms(300);
+"127
+[e ( _DelayXms (1 -> -> 300 `i `ui ]
+[; ;main.c: 134: INTCON = 0XC0;
+"134
+[e = _INTCON -> -> 192 `i `uc ]
+[; ;main.c: 136: {{BuzCnt = 1; BuzUpTime = 250/2; BuzDownTime = 250/2; BuzUpTemp = BuzUpTime; BuzDownTemp = BuzDownTime;};};
+"136
+{
+{
+[e = _BuzCnt -> -> 1 `i `uc ]
+[e = _BuzUpTime -> / -> 250 `i -> 2 `i `uc ]
+[e = _BuzDownTime -> / -> 250 `i -> 2 `i `uc ]
+[e = _BuzUpTemp _BuzUpTime ]
+[e = _BuzDownTemp _BuzDownTime ]
+}
+}
+[; ;main.c: 137: }
+"137
+[e :UE 7 ]
+}
+[v $root$_Timer1_Isr `(v ~T0 @X0 0 e ]
+[v F906 `(v ~T0 @X0 1 tf ]
+"143
+[v _Timer1_Isr `IF906 ~T0 @X0 1 e ]
+"144
+{
+[; ;main.c: 143: void interrupt Timer1_Isr()
+[; ;main.c: 144: {
+[e :U _Timer1_Isr ]
+[f ]
+[; ;main.c: 145: if(TMR1IF)
+"145
+[e $ ! _TMR1IF 9  ]
+[; ;main.c: 146: {
+"146
+{
+[; ;main.c: 148: TMR1L += 0x30;
+"148
+[e =+ _TMR1L -> -> 48 `i `uc ]
+[; ;main.c: 149: TMR1H += 0xF8;
+"149
+[e =+ _TMR1H -> -> 248 `i `uc ]
+[; ;main.c: 152: Operate_Relay_IO();
+"152
+[e ( _Operate_Relay_IO ..  ]
+[; ;main.c: 153: Ad_Pressure_Raw = Get_AD(0x13);
+"153
+[e = _Ad_Pressure_Raw ( _Get_AD (1 -> -> 19 `i `uc ]
+[; ;main.c: 154: Get_Pressure_Switch_Data();
+"154
+[e ( _Get_Pressure_Switch_Data ..  ]
+[; ;main.c: 155: Get_Zero();
+"155
+[e ( _Get_Zero ..  ]
+[; ;main.c: 157: if(b_VolData_OK == 0)
+"157
+[e $ ! == -> _b_VolData_OK `i -> 0 `i 10  ]
+[; ;main.c: 158: {
+"158
+{
+[; ;main.c: 159: Get_AC_Voltage();
+"159
+[e ( _Get_AC_Voltage ..  ]
+"160
+}
+[e :U 10 ]
+[; ;main.c: 160: }
+[; ;main.c: 163: if(++MainTime_8ms >= 32)
+"163
+[e $ ! >= -> =+ _MainTime_8ms -> -> 1 `i `uc `i -> 32 `i 11  ]
+[; ;main.c: 164: {
+"164
+{
+[; ;main.c: 165: MainTime_8ms = 0;
+"165
+[e = _MainTime_8ms -> -> 0 `i `uc ]
+[; ;main.c: 166: b_MainLoop_8ms = 1;
+"166
+[e = _b_MainLoop_8ms -> -> 1 `i `b ]
+[; ;main.c: 168: if(b_AdBot_OK == 0)
+"168
+[e $ ! == -> _b_AdBot_OK `i -> 0 `i 12  ]
+[; ;main.c: 169: {
+"169
+{
+[; ;main.c: 170: Ad_Bot_Raw = Get_AD(0x14);
+"170
+[e = _Ad_Bot_Raw ( _Get_AD (1 -> -> 20 `i `uc ]
+[; ;main.c: 171: b_AdBot_OK = 1;
+"171
+[e = _b_AdBot_OK -> -> 1 `i `b ]
+"172
+}
+[e :U 12 ]
+"173
+}
+[e :U 11 ]
+[; ;main.c: 172: }
+[; ;main.c: 173: }
+[; ;main.c: 176: if(++MainTime_10ms >= 40)
+"176
+[e $ ! >= -> =+ _MainTime_10ms -> -> 1 `i `uc `i -> 40 `i 13  ]
+[; ;main.c: 177: {
+"177
+{
+[; ;main.c: 178: MainTime_10ms = 0;
+"178
+[e = _MainTime_10ms -> -> 0 `i `uc ]
+[; ;main.c: 181: if(++MainTime_500ms >= 50)
+"181
+[e $ ! >= -> =+ _MainTime_500ms -> -> 1 `i `uc `i -> 50 `i 14  ]
+[; ;main.c: 182: {
+"182
+{
+[; ;main.c: 183: MainTime_500ms = 0;
+"183
+[e = _MainTime_500ms -> -> 0 `i `uc ]
+[; ;main.c: 184: b_MainLoop_500ms = 1;
+"184
+[e = _b_MainLoop_500ms -> -> 1 `i `b ]
+"185
+}
+[e :U 14 ]
+[; ;main.c: 185: }
+[; ;main.c: 187: if(++LedCol_500ms >= 50)
+"187
+[e $ ! >= -> =+ _LedCol_500ms -> -> 1 `i `uc `i -> 50 `i 15  ]
+[; ;main.c: 188: {
+"188
+{
+[; ;main.c: 189: LedCol_500ms = 0;
+"189
+[e = _LedCol_500ms -> -> 0 `i `uc ]
+[; ;main.c: 190: b_LedCol = ~b_LedCol;
+"190
+[e = _b_LedCol -> ~ -> _b_LedCol `ui `b ]
+"191
+}
+[e :U 15 ]
+"192
+}
+[e :U 13 ]
+[; ;main.c: 191: }
+[; ;main.c: 192: }
+[; ;main.c: 193: TMR1IF = 0;
+"193
+[e = _TMR1IF -> -> 0 `i `b ]
+"195
+}
+[e :U 9 ]
+[; ;main.c: 195: }
+[; ;main.c: 196: }
+"196
+[e :UE 8 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"201
+[v _main `(v ~T0 @X0 1 ef ]
+"202
+{
+[; ;main.c: 201: void main()
+[; ;main.c: 202: {
+[e :U _main ]
+[f ]
+[; ;main.c: 203: Init_System();
+"203
+[e ( _Init_System ..  ]
+[; ;main.c: 205: while(1)
+"205
+[e :U 18 ]
+[; ;main.c: 206: {
+"206
+{
+[; ;main.c: 207: asm("clrwdt");
+"207
+[; <" clrwdt ;# ">
+[; ;main.c: 209: if(b_MainLoop_8ms)
+"209
+[e $ ! _b_MainLoop_8ms 20  ]
+[; ;main.c: 210: {
+"210
+{
+[; ;main.c: 211: b_MainLoop_8ms = 0;
+"211
+[e = _b_MainLoop_8ms -> -> 0 `i `b ]
+[; ;main.c: 214: if(SysStatus == 6)
+"214
+[e $ ! == -> _SysStatus `i -> 6 `i 21  ]
+[; ;main.c: 215: {
+"215
+{
+[; ;main.c: 216: if(++WaitCycle >= 125)
+"216
+[e $ ! >= -> =+ _WaitCycle -> -> 1 `i `uc `i -> 125 `i 22  ]
+[; ;main.c: 217: {
+"217
+{
+[; ;main.c: 218: WaitCycle = 0;
+"218
+[e = _WaitCycle -> -> 0 `i `uc ]
+[; ;main.c: 219: SysStatus = 1;
+"219
+[e = _SysStatus -> -> 1 `i `uc ]
+"220
+}
+[e :U 22 ]
+[; ;main.c: 220: }
+[; ;main.c: 222: if(WaitCycle >= 60)
+"222
+[e $ ! >= -> _WaitCycle `i -> 60 `i 23  ]
+[; ;main.c: 223: {
+"223
+{
+[; ;main.c: 225: if((Ad_Bot_Raw >= 158 && Ad_Bot_Raw <= 168) && (Ad_Pressure_Raw >= 238 && Ad_Pressure_Raw <= 248) && b_LidClosed == 1)
+"225
+[e $ ! && && && >= -> _Ad_Bot_Raw `i -> 158 `i <= -> _Ad_Bot_Raw `i -> 168 `i && >= -> _Ad_Pressure_Raw `i -> 238 `i <= -> _Ad_Pressure_Raw `i -> 248 `i == -> _b_LidClosed `i -> 1 `i 24  ]
+[; ;main.c: 226: {
+"226
+{
+[; ;main.c: 227: SysStatus = 5;
+"227
+[e = _SysStatus -> -> 5 `i `uc ]
+[; ;main.c: 228: FactoryTestData = 0;
+"228
+[e = _FactoryTestData -> -> 0 `i `uc ]
+[; ;main.c: 229: b_Auto_test = 1;
+"229
+[e = _b_Auto_test -> -> 1 `i `b ]
+[; ;main.c: 230: {{BuzCnt = 1; BuzUpTime = 75/2; BuzDownTime = 250/2; BuzUpTemp = BuzUpTime; BuzDownTemp = BuzDownTime;};};
+"230
+{
+{
+[e = _BuzCnt -> -> 1 `i `uc ]
+[e = _BuzUpTime -> / -> 75 `i -> 2 `i `uc ]
+[e = _BuzDownTime -> / -> 250 `i -> 2 `i `uc ]
+[e = _BuzUpTemp _BuzUpTime ]
+[e = _BuzDownTemp _BuzDownTime ]
+}
+}
+"231
+}
+[e :U 24 ]
+"232
+}
+[e :U 23 ]
+"233
+}
+[e :U 21 ]
+[; ;main.c: 231: }
+[; ;main.c: 232: }
+[; ;main.c: 233: }
+[; ;main.c: 235: Key_Drive();
+"235
+[e ( _Key_Drive ..  ]
+[; ;main.c: 236: Key_Task();
+"236
+[e ( _Key_Task ..  ]
+[; ;main.c: 238: if(b_AdBot_OK)
+"238
+[e $ ! _b_AdBot_OK 25  ]
+[; ;main.c: 239: {
+"239
+{
+[; ;main.c: 240: Get_Temp_Data();
+"240
+[e ( _Get_Temp_Data ..  ]
+"241
+}
+[e :U 25 ]
+[; ;main.c: 241: }
+[; ;main.c: 243: Get_Lid_Data();
+"243
+[e ( _Get_Lid_Data ..  ]
+[; ;main.c: 245: if(b_Auto_test == 0)
+"245
+[e $ ! == -> _b_Auto_test `i -> 0 `i 26  ]
+[; ;main.c: 246: {
+"246
+{
+[; ;main.c: 247: Error_Deal();
+"247
+[e ( _Error_Deal ..  ]
+"248
+}
+[e :U 26 ]
+[; ;main.c: 248: }
+[; ;main.c: 249: Cook_Task();
+"249
+[e ( _Cook_Task ..  ]
+[; ;main.c: 250: Sound_Deal();
+"250
+[e ( _Sound_Deal ..  ]
+[; ;main.c: 251: LED_Task();
+"251
+[e ( _LED_Task ..  ]
+[; ;main.c: 252: LED_Drive();
+"252
+[e ( _LED_Drive ..  ]
+"253
+}
+[e :U 20 ]
+[; ;main.c: 253: }
+[; ;main.c: 255: if(b_MainLoop_500ms)
+"255
+[e $ ! _b_MainLoop_500ms 27  ]
+[; ;main.c: 256: {
+"256
+{
+[; ;main.c: 257: b_MainLoop_500ms = 0;
+"257
+[e = _b_MainLoop_500ms -> -> 0 `i `b ]
+[; ;main.c: 258: Time_Deal();
+"258
+[e ( _Time_Deal ..  ]
+[; ;main.c: 261: if(b_VolData_OK == 1)
+"261
+[e $ ! == -> _b_VolData_OK `i -> 1 `i 28  ]
+[; ;main.c: 262: {
+"262
+{
+[; ;main.c: 263: Get_AC_Rms();
+"263
+[e ( _Get_AC_Rms ..  ]
+"264
+}
+[e :U 28 ]
+"265
+}
+[e :U 27 ]
+"266
+}
+[e :U 17 ]
+"205
+[e $U 18  ]
+[e :U 19 ]
+[; ;main.c: 264: }
+[; ;main.c: 265: }
+[; ;main.c: 266: }
+[; ;main.c: 267: }
+"267
+[e :UE 16 ]
+}

@@ -1,0 +1,3376 @@
+Microchip MPLAB XC8 Compiler V1.45 ()
+
+Linker command line:
+
+--edf=D:\PROGRA~2\CMS_ID~1.12\data\dat\en_msgs.txt -cs -h+Y-50C88.sym \
+  --cmf=Y-50C88.cmf -z -Q89F23X5 \
+  -oC:\Users\NINGWE~1\AppData\Local\Temp\sd4.2 -MY-50C88.map -E1 -ver=XC8 \
+  -ASTACK=0198h-01efh -pstack=STACK -p_Fc_ID_4_text=1FFBh \
+  -p_Fc_ID_2_text=1FF9h -p_Fc_ID_5_text=1FFCh -p_Fc_ID_7_text=1FFEh \
+  -p_Fc_ID_3_text=1FFAh -p_Fc_ID_8_text=1FFFh -p_Fc_ID_1_text=1FF8h \
+  -p_Fc_ID_6_text=1FFDh -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
+  -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0120h-016Fh -ABANK3=0198h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh,0198h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0120h-016Fh,0198h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-011Fh -ASFR3=0180h-0197h \
+  -preset_vec=00h,intentry=04h,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=ENTRY -ACONFIG=02007h-02008h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -DCODE=2 -DSTRCODE=2 \
+  -DSTRING=2 -DCONST=2 -DENTRY=2 -k startup.obj Y-50C88.obj 
+
+Object code version is 3.11
+
+Machine type is 89F23X5
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+startup.obj     end_init                              C        C        3        8       0
+                reset_vec                             0        0        3        0       0
+Y-50C88.obj     cinit                                 F        F       1D        8       0
+                intentry                              4        4        8        8       0
+                text65                               2C       2C      157        8       0
+                text58                              800      800      800     1000       0
+                text51                              3E8      3E8       80        8       0
+                text49                             1002     1002      7FE     2004       0
+                text47                              54D      54D       57        8       0
+                text40                              363      363       85        8       0
+                text38                              281      281       E2        8       0
+                text30                              4E2      4E2       6B        8       0
+                text12                              183      183       FE        8       0
+                text11                              5DA      5DA       25        8       0
+                text7                               5A4      5A4       36        8       0
+                maintext                            468      468       7A        8       0
+                cstackBANK0                          5A       5A        D       20       1
+                cstackCOMMON                         73       73        6       70       1
+                clrtext                             5FF      5FF        8        8       0
+                bssBANK1                             A0       A0       30       A0       1
+                dataBANK0                            6B       6B        2       20       1
+                bssBANK0                             20       20       3A       20       1
+                bssCOMMON                            79       79        4       70       1
+                bitbssCOMMON                        380       70       18       70       1     8
+                nvBANK0                              67       67        4       20       1
+                _Fc_ID_3_text                      1FFA     1FFA        1     3FF4       0
+                _Fc_ID_4_text                      1FFB     1FFB        1     3FF6       0
+                _Fc_ID_5_text                      1FFC     1FFC        1     3FF8       0
+                _Fc_ID_6_text                      1FFD     1FFD        1     3FFA       0
+                _Fc_ID_7_text                      1FFE     1FFE        1     3FFC       0
+                _Fc_ID_8_text                      1FFF     1FFF        1     3FFE       0
+                _Fc_ID_1_text                      1FF8     1FF8        1     3FF0       0
+                _Fc_ID_2_text                      1FF9     1FF9        1     3FF2       0
+                stringtext                         1800     1800      188       30       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                              C        C        3         0
+                cinit                                 F        F       1D         0
+                intentry                              4        4        8         0
+                reset_vec                             0        0        3         0
+                text65                               2C       2C      157         0
+                text58                              800      800      800         0
+                text51                              3E8      3E8       80         0
+                text49                             1002     1002      7FE         0
+                text47                              54D      54D       57         0
+                text40                              363      363       85         0
+                text38                              281      281       E2         0
+                text30                              4E2      4E2       6B         0
+                text12                              183      183       FE         0
+                text11                              5DA      5DA       25         0
+                text7                               5A4      5A4       36         0
+                maintext                            468      468       7A         0
+                clrtext                             5FF      5FF        8         0
+                _Fc_ID_3_text                      1FFA     1FFA        1         0
+                _Fc_ID_4_text                      1FFB     1FFB        1         0
+                _Fc_ID_5_text                      1FFC     1FFC        1         0
+                _Fc_ID_6_text                      1FFD     1FFD        1         0
+                _Fc_ID_7_text                      1FFE     1FFE        1         0
+                _Fc_ID_8_text                      1FFF     1FFF        1         0
+                _Fc_ID_1_text                      1FF8     1FF8        1         0
+                _Fc_ID_2_text                      1FF9     1FF9        1         0
+
+        CLASS   STRCODE        
+                stringtext                         1800     1800      188         0
+
+        CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         73       73        6         1
+                bssCOMMON                            79       79        4         1
+                bitbssCOMMON                        380       70       18         1
+
+        CLASS   BANK0          
+                cstackBANK0                          5A       5A        D         1
+                dataBANK0                            6B       6B        2         1
+                bssBANK0                             20       20       3A         1
+                nvBANK0                              67       67        4         1
+
+        CLASS   BANK1          
+                bssBANK1                             A0       A0       30         1
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                intentry                       000004  000603  000607         8       0  CODE        2
+                bssBANK0                       000020  00004D  00006D        20       1  BANK0       1
+                bitbssCOMMON                   000070  00000D  00007D        70       1  COMMON      1
+                bssBANK1                       0000A0  000030  0000D0        A0       1  BANK1       1
+                text58                         000800  000800  001000      1000       0  CODE        2
+                text49                         001002  0007FE  001800      2004       0  CODE        2
+                stringtext                     001800  000188  001988        30       0  STRCODE     2
+                _Fc_ID_1_text                  001FF8  000001  001FF9      3FF0       0  CODE        2
+                _Fc_ID_2_text                  001FF9  000001  001FFA      3FF2       0  CODE        2
+                _Fc_ID_3_text                  001FFA  000001  001FFB      3FF4       0  CODE        2
+                _Fc_ID_4_text                  001FFB  000001  001FFC      3FF6       0  CODE        2
+                _Fc_ID_5_text                  001FFC  000001  001FFD      3FF8       0  CODE        2
+                _Fc_ID_6_text                  001FFD  000001  001FFE      3FFA       0  CODE        2
+                _Fc_ID_7_text                  001FFE  000001  001FFF      3FFC       0  CODE        2
+                _Fc_ID_8_text                  001FFF  000001  002000      3FFE       0  CODE        2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            006D-006F              3           1
+        BANK1            00D0-00EF             20           1
+        BANK2            0120-016F             50           1
+        BANK3            0198-01EF             58           1
+        CODE             0003-0003              1           2
+                         0607-07FF            1F9
+                         1000-1001              2
+                         1988-1FF7            670
+        COMMON           007D-007D              1           1
+        CONFIG           2007-2008              2           2
+        CONST            0003-0003              1           2
+                         0607-07FF            100
+                         1000-1001              2
+                         1988-1FF7            100
+        ENTRY            0003-0003              1           2
+                         0607-07FF            100
+                         1000-1001              2
+                         1988-1FF7            100
+        IDLOC            2000-2003              4           2
+        RAM              006D-006F              3           1
+                         00D0-00EF             20
+                         0120-016F             50
+                         0198-01EF             58
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-011F             20           1
+        SFR3             0180-0197             18           1
+        STACK            0198-01EF             58           1
+        STRCODE          0003-0003              1           2
+                         0607-07FF            1F9
+                         1000-1001              2
+                         1988-1FF7            670
+        STRING           0003-0003              1           2
+                         0607-07FF            100
+                         1000-1001              2
+                         1988-1FF7            100
+
+                                  Symbol Table
+
+?___awdiv                          cstackBANK0   005A
+?___awmod                          cstackBANK0   005A
+?___lwdiv                          cstackBANK0   005A
+?___lwmod                          cstackBANK0   005A
+?___wmul                           cstackBANK0   005A
+DIG_Show_Data@digdata1             cstackBANK0   0062
+DIG_Show_Data@digdata2             cstackBANK0   005F
+DIG_Show_Data@digdata3             cstackBANK0   0060
+DIG_Show_Data@digdata4             cstackBANK0   0061
+DIG_Show_Time@hour                 cstackBANK0   0061
+DIG_Show_Time@min                  cstackBANK0   005F
+DIG_Show_Time@point                cstackBANK0   0060
+DelayXms@i                         cstackBANK0   005C
+DelayXms@x                         cstackBANK0   005A
+Error_Deal@E3_delaycount           bssBANK1      00AC
+Get_AC_Rms@s_maxvol                bssBANK0      004C
+Get_AC_Rms@s_minvol                dataBANK0     006C
+Get_AC_Rms@s_sumvol                bssBANK1      00B2
+Get_AC_Rms@s_voltimes              bssBANK0      004B
+Get_AC_Voltage@s_volcount          bssBANK1      00B4
+Get_AD@adresult                    cstackCOMMON  0074
+Get_AD@ch                          cstackCOMMON  0075
+Get_AD@i                           cstackCOMMON  0076
+Get_Lid_Data@s_lidcount            bssBANK0      004D
+Get_Pressure_Switch_Data@s_pscount bssBANK1      00B6
+Get_Temp_Data@s_admax              bssBANK0      0047
+Get_Temp_Data@s_admin              dataBANK0     006B
+Get_Temp_Data@s_adsum              bssBANK1      00AE
+Get_Temp_Data@s_adtimes            bssBANK1      00CF
+Get_Zero@s_highcount               bssBANK0      0049
+Get_Zero@s_lowcount                bssBANK0      0048
+Get_Zero@s_zerocnt9ms              bssBANK0      004A
+Get_Zero@s_zerotimes               bssBANK1      00B0
+Heat_Time_Select@offtm             cstackBANK0   005A
+Heat_Time_Select@ontm              cstackBANK0   005B
+Key_Drive@keycount                 bssBANK1      00C3
+Key_Drive@keylong                  bssBANK1      00A8
+Key_Drive@keyold                   bssBANK1      00AA
+Key_Drive@nkeycount                bssBANK1      00C2
+KscanIo@i                          cstackBANK0   005E
+LED_Off@i                          cstackBANK0   005A
+PL10                               text58        0F9A
+PL12                               text49        1799
+PL14                               text58        0FD5
+PL16                               text49        17B8
+PL18                               text49        17BF
+PL2                                text58        0F88
+PL20                               text49        17C5
+PL22                               text49        17D1
+PL24                               text49        17D7
+PL26                               text49        17DF
+PL28                               text49        17E7
+PL30                               text12        027A
+PL32                               text49        17EE
+PL34                               text49        17F4
+PL36                               text49        17FA
+PL4                                text38        0352
+PL6                                text49        1792
+PL8                                text58        0F90
+Power_On_Show@i                    cstackBANK0   005A
+Set_Addr_Value@addr                cstackBANK0   005B
+Set_Addr_Value@data                cstackBANK0   005C
+Set_Addr_Value@mask                cstackBANK0   005A
+_AC_Vol_Rms                        nvBANK0       0067
+_ADCON0                            (abs)         001F
+_ADCON1                            (abs)         009F
+_ADRESH                            (abs)         001E
+_ADRESL                            (abs)         009E
+_Ad_Bot                            bssBANK0      004F
+_Ad_Bot_Raw                        bssBANK0      0050
+_Ad_Lid                            bssBANK1      00BD
+_Ad_Pressure                       bssBANK1      00BC
+_Ad_Pressure_Raw                   bssBANK0      0052
+_Ad_Vol_Avg                        bssBANK0      0051
+_Ad_Vol_Raw                        bssCOMMON     007C
+_Ad_Vol_Sum                        bssBANK1      00BA
+_AutoStartFun                      text58        0B8C
+_BotHeatOff                        text58        0B67
+_BotHeatOn                         text58        0B6C
+_Bot_Temp                          bssBANK0      004E
+_BuzCnt                            bssBANK0      0057
+_BuzDownTemp                       bssBANK0      0053
+_BuzDownTime                       bssBANK0      0055
+_BuzUpTemp                         bssBANK0      0054
+_BuzUpTime                         bssBANK0      0056
+_CCPR0L                            (abs)         001B
+_CakeHeat                          text58        08DD
+_Cancel                            text58        0D77
+_ChooseFun                         bssBANK0      003C
+_ChooseFunSave                     bssCOMMON     007B
+_Cook_Task                         text58        0841
+_CountDownTime                     bssBANK0      0040
+_CountDownTimeSave                 bssBANK0      0033
+_CountDownTimeStart                text58        0BBB
+_CountTimeS                        bssBANK0      002A
+_DIG_Show_Data                     text49        1315
+_DIG_Show_Time                     text49        174F
+_DelayXms                          text40        03D0
+_DispData                          bssBANK0      0020
+_ErrorCode                         bssBANK0      0058
+_ErrorSoundTime                    bssBANK1      00BF
+_ErrorTimeStart                    text58        0EEB
+_Error_Deal                        text51        03E8
+_Error_Show                        text12        01E6
+_FactoryTest                       text58        0819
+_FactoryTestData                   bssBANK0      0041
+_Factory_Show                      text49        153C
+_Fc_ID                             bssBANK1      00A0
+_Fc_ID_1                           _Fc_ID_1_text 1FF8
+_Fc_ID_1_absaddr                   (abs)         1FF8
+_Fc_ID_2                           _Fc_ID_2_text 1FF9
+_Fc_ID_2_absaddr                   (abs)         1FF9
+_Fc_ID_3                           _Fc_ID_3_text 1FFA
+_Fc_ID_3_absaddr                   (abs)         1FFA
+_Fc_ID_4                           _Fc_ID_4_text 1FFB
+_Fc_ID_4_absaddr                   (abs)         1FFB
+_Fc_ID_5                           _Fc_ID_5_text 1FFC
+_Fc_ID_5_absaddr                   (abs)         1FFC
+_Fc_ID_6                           _Fc_ID_6_text 1FFD
+_Fc_ID_6_absaddr                   (abs)         1FFD
+_Fc_ID_7                           _Fc_ID_7_text 1FFE
+_Fc_ID_7_absaddr                   (abs)         1FFE
+_Fc_ID_8                           _Fc_ID_8_text 1FFF
+_Fc_ID_8_absaddr                   (abs)         1FFF
+_Fun_Choose_Show                   text49        10D9
+_GODONE                            (abs)         00F9
+_Get_AC_Rms                        text49        1002
+_Get_AC_Voltage                    text65        00AB
+_Get_AD                            text65        0078
+_Get_Lid_Data                      text58        0FA1
+_Get_Pressure_Switch_Data          text65        00D1
+_Get_Temp_Data                     text47        054D
+_Get_Zero                          text65        00FD
+_HOT_RUN_TAB                       stringtext    1944
+_HeatCnt500ms                      bssBANK0      0045
+_Heat_Time_Select                  text58        0B4B
+_HorseCount                        bssBANK0      0032
+_HorseShowTime160ms                bssBANK1      00CC
+_HourBuf                           bssBANK0      0038
+_INTCON                            (abs)         000B
+_Init_GPIO                         text40        0389
+_Init_LED_Module                   text40        039F
+_Init_PWM                          text40        03AE
+_Init_System                       text40        0363
+_Init_TMR1                         text40        03BB
+_Init_Var                          text40        03C7
+_JudgeLidCnt                       bssBANK1      00C8
+_JudgeLidMin                       bssBANK0      002F
+_KeepWarmH                         bssBANK0      002B
+_KeepWarmHeat                      text58        0800
+_KeepWarmM                         bssBANK1      00C5
+_KeepWarmS                         bssBANK1      00C4
+_KeepWarmTimeStart                 text7         05A4
+_Keepwarm_Show                     text12        0204
+_KeyData                           bssBANK0      0027
+_KeyFlag                           bssBANK0      002D
+_Key_Drive                         text38        0281
+_Key_Task                          text58        0C07
+_KscanIo                           text38        02CE
+_LCDCON                            (abs)         0114
+_LCDCON0                           (abs)         0190
+_LCDCON1                           (abs)         0191
+_LEDADD                            (abs)         0192
+_LEDDATA                           (abs)         0193
+_LED_Drive                         text30        04E2
+_LED_Off                           text12        0260
+_LED_Task                          text12        0183
+_LedCol_500ms                      bssBANK1      00CB
+_Led_Step_100C                     bssBANK1      00CD
+_LongKeyCount                      bssBANK1      00CA
+_MainK_Preset                      text58        0D15
+_MainTime_10ms                     bssBANK1      00C0
+_MainTime_500ms                    bssBANK1      00C9
+_MainTime_8ms                      bssBANK1      00C1
+_Maink_Cancel                      text58        0D5C
+_Maink_Factory                     text58        0D9B
+_Maink_Fast_Fun                    text58        0E7C
+_Maink_Test                        text58        0EB6
+_MinBuf                            bssBANK0      0037
+_OPTION_REG                        (abs)         0081
+_OSCCON                            (abs)         008F
+_OpenCook                          text58        0952
+_Operate_Relay_IO                  text65        0148
+_PORTA                             (abs)         0005
+_PORTB                             (abs)         0006
+_PORTC                             (abs)         0007
+_PORTD                             (abs)         0008
+_PR2                               (abs)         0092
+_PWM0EN                            (abs)         00E8
+_PWMCON                            (abs)         001D
+_Power_On_Show                     text12        026C
+_PresetState                       bssBANK0      0039
+_PresetTimeH                       bssBANK0      0036
+_PresetTimeM                       bssBANK0      0035
+_PresetTimeS                       bssBANK0      002C
+_PresetTimeStart                   text49        108D
+_PressureCountTime                 bssBANK1      00C6
+_PressureData                      bssBANK1      00C7
+_PressureHeat                      text58        09B9
+_RB1                               (abs)         0031
+_RB2                               (abs)         0032
+_RB3                               (abs)         0033
+_RB4                               (abs)         0034
+_RB5                               (abs)         0035
+_RB6                               (abs)         0036
+_RB7                               (abs)         0037
+_RC0                               (abs)         0038
+_RC1                               (abs)         0039
+_RD4                               (abs)         0044
+_REF_TEMP_TAB                      stringtext    1812
+_ReheatCook                        text58        088C
+_RelOffCnt                         bssBANK0      0046
+_RelOnCnt                          bssBANK1      00CE
+_RelWaitCnt                        bssCOMMON     0079
+_Relay_Duty_Control                text58        0F02
+_RiceHeat                          text58        0A78
+_SEGEN0                            (abs)         0196
+_SEGEN1                            (abs)         0195
+_SEGEN2                            (abs)         0194
+_SEG_MATH_TAB                      stringtext    1978
+_SendShow                          bssBANK0      0030
+_Set_Addr_Value                    text30        0524
+_ShortCntL                         bssBANK0      0044
+_ShortCntM                         bssBANK0      0043
+_ShortTime                         text58        0F50
+_ShortTimeOn                       text58        0B63
+_Sound_Deal                        text11        05DA
+_StandbyTimeCnt                    bssBANK0      0059
+_StandbyTimeStart                  text58        0F60
+_SysStatus                         nvBANK0       006A
+_T1CON                             (abs)         0010
+_T2CKPS0                           (abs)         0090
+_T2CKPS1                           (abs)         0091
+_TIME_TAB                          stringtext    1908
+_TMR1H                             (abs)         000F
+_TMR1IE                            (abs)         0460
+_TMR1IF                            (abs)         0060
+_TMR1L                             (abs)         000E
+_TMR2IF                            (abs)         0061
+_TMR2ON                            (abs)         0092
+_TRISA                             (abs)         0085
+_TRISB                             (abs)         0086
+_TRISC                             (abs)         0087
+_TRISD                             (abs)         0088
+_TasteCase                         bssBANK1      00BE
+_TestShow                          bssBANK0      0031
+_Test_Mode_Show                    text49        118D
+_Time_Deal                         text58        0B70
+_Timer1_Isr                        text65        002C
+_TotalTimeSave                     bssBANK0      003E
+_Vrms_Level                        nvBANK0       0069
+_WPUA                              (abs)         018E
+_WPUB                              (abs)         0095
+_WPUC                              (abs)         018F
+_WPUD                              (abs)         0185
+_WaitCycle                         bssBANK0      0029
+_Waiting_Mode_Show                 text12        0278
+_WorkStage                         bssBANK0      003F
+_WorkStep                          bssBANK0      0042
+_WorkTimeH                         bssBANK0      002E
+_WorkTimeM                         bssBANK0      003D
+_WorkTimeS                         bssBANK0      0034
+_WorkTimeStart                     text58        0FDB
+_Work_Mode_Show                    text49        13F9
+_ZeroDeley                         bssBANK0      003B
+_ZeroTimeoutCnt                    bssBANK0      003A
+_ZeroTimesShow                     bssBANK1      00B8
+__H_Fc_ID_1_text                   _Fc_ID_1_text 1FF9
+__H_Fc_ID_2_text                   _Fc_ID_2_text 1FFA
+__H_Fc_ID_3_text                   _Fc_ID_3_text 1FFB
+__H_Fc_ID_4_text                   _Fc_ID_4_text 1FFC
+__H_Fc_ID_5_text                   _Fc_ID_5_text 1FFD
+__H_Fc_ID_6_text                   _Fc_ID_6_text 1FFE
+__H_Fc_ID_7_text                   _Fc_ID_7_text 1FFF
+__H_Fc_ID_8_text                   _Fc_ID_8_text 2000
+__Habs1                            abs1          0000
+__Hbank0                           bank0         0000
+__Hbank1                           bank1         0000
+__Hbank2                           bank2         0000
+__Hbank3                           bank3         0000
+__HbitbssCOMMON                    bitbssCOMMON  0000
+__HbssBANK0                        bssBANK0      0000
+__HbssBANK1                        bssBANK1      0000
+__HbssCOMMON                       bssCOMMON     0000
+__Hcinit                           cinit         002C
+__Hclrtext                         clrtext       0000
+__Hcode                            code          0000
+__Hcommon                          common        0000
+__Hconfig                          config        0000
+__HcstackBANK0                     cstackBANK0   0000
+__HcstackCOMMON                    cstackCOMMON  0000
+__HdataBANK0                       dataBANK0     0000
+__Heeprom_data                     eeprom_data   0000
+__Hend_init                        end_init      000F
+__Hfunctab                         functab       0000
+__HidataBANK0                      idataBANK0    0000
+__Hidloc                           idloc         0000
+__Hinit                            init          000C
+__Hintentry                        intentry      000C
+__Hmaintext                        maintext      0000
+__HnvBANK0                         nvBANK0       0000
+__Hpa_nodes0                       pa_nodes0     0000
+__Hpowerup                         powerup       0000
+__Hram                             ram           0000
+__Hreset_vec                       reset_vec     0003
+__Hsfr0                            sfr0          0000
+__Hsfr1                            sfr1          0000
+__Hsfr2                            sfr2          0000
+__Hsfr3                            sfr3          0000
+__Hspace_0                         (abs)         2000
+__Hspace_1                         (abs)         0398
+__Hspace_2                         (abs)         0000
+__Hspace_3                         (abs)         0000
+__Hstack                           stack         0000
+__Hstrings                         strings       0000
+__Hstringtext                      stringtext    0000
+__Htext                            text          0000
+__L_Fc_ID_1_text                   _Fc_ID_1_text 1FF8
+__L_Fc_ID_2_text                   _Fc_ID_2_text 1FF9
+__L_Fc_ID_3_text                   _Fc_ID_3_text 1FFA
+__L_Fc_ID_4_text                   _Fc_ID_4_text 1FFB
+__L_Fc_ID_5_text                   _Fc_ID_5_text 1FFC
+__L_Fc_ID_6_text                   _Fc_ID_6_text 1FFD
+__L_Fc_ID_7_text                   _Fc_ID_7_text 1FFE
+__L_Fc_ID_8_text                   _Fc_ID_8_text 1FFF
+__Labs1                            abs1          0000
+__Lbank0                           bank0         0000
+__Lbank1                           bank1         0000
+__Lbank2                           bank2         0000
+__Lbank3                           bank3         0000
+__LbitbssCOMMON                    bitbssCOMMON  0000
+__LbssBANK0                        bssBANK0      0000
+__LbssBANK1                        bssBANK1      0000
+__LbssCOMMON                       bssCOMMON     0000
+__Lcinit                           cinit         000F
+__Lclrtext                         clrtext       0000
+__Lcode                            code          0000
+__Lcommon                          common        0000
+__Lconfig                          config        0000
+__LcstackBANK0                     cstackBANK0   0000
+__LcstackCOMMON                    cstackCOMMON  0000
+__LdataBANK0                       dataBANK0     0000
+__Leeprom_data                     eeprom_data   0000
+__Lend_init                        end_init      000C
+__Lfunctab                         functab       0000
+__LidataBANK0                      idataBANK0    0000
+__Lidloc                           idloc         0000
+__Linit                            init          000C
+__Lintentry                        intentry      0004
+__Lmaintext                        maintext      0000
+__LnvBANK0                         nvBANK0       0000
+__Lpa_nodes0                       pa_nodes0     0000
+__Lpowerup                         powerup       0000
+__Lram                             ram           0000
+__Lreset_vec                       reset_vec     0000
+__Lsfr0                            sfr0          0000
+__Lsfr1                            sfr1          0000
+__Lsfr2                            sfr2          0000
+__Lsfr3                            sfr3          0000
+__Lspace_0                         (abs)         0000
+__Lspace_1                         (abs)         0000
+__Lspace_2                         (abs)         0000
+__Lspace_3                         (abs)         0000
+__Lstack                           stack         0000
+__Lstrings                         strings       0000
+__Lstringtext                      stringtext    0000
+__Ltext                            text          0000
+__S0                               (abs)         1988
+__S1                               (abs)         00D0
+__S2                               (abs)         0000
+___awdiv                           text49        1353
+___awdiv@counter                   cstackBANK0   005E
+___awdiv@dividend                  cstackBANK0   005C
+___awdiv@divisor                   cstackBANK0   005A
+___awdiv@quotient                  cstackBANK0   0060
+___awdiv@sign                      cstackBANK0   005F
+___awmod                           text49        1398
+___awmod@counter                   cstackBANK0   005E
+___awmod@dividend                  cstackBANK0   005C
+___awmod@divisor                   cstackBANK0   005A
+___awmod@sign                      cstackBANK0   005F
+___int_sp                          stack         0000
+___latbits                         (abs)         0002
+___lbdiv                           text49        171B
+___lbdiv@counter                   cstackBANK0   005C
+___lbdiv@dividend                  cstackBANK0   005B
+___lbdiv@divisor                   cstackBANK0   005A
+___lbdiv@quotient                  cstackBANK0   005D
+___lbmod                           text49        16FF
+___lbmod@counter                   cstackBANK0   005D
+___lbmod@dividend                  cstackBANK0   005C
+___lbmod@divisor                   cstackBANK0   005A
+___lbmod@rem                       cstackBANK0   005E
+___lwdiv                           text49        1329
+___lwdiv@counter                   cstackBANK0   0060
+___lwdiv@dividend                  cstackBANK0   005C
+___lwdiv@divisor                   cstackBANK0   005A
+___lwdiv@quotient                  cstackBANK0   005E
+___lwmod                           text49        13D5
+___lwmod@counter                   cstackBANK0   005E
+___lwmod@dividend                  cstackBANK0   005C
+___lwmod@divisor                   cstackBANK0   005A
+___sp                              stack         0000
+___wmul                            text49        1736
+___wmul@multiplicand               cstackBANK0   005C
+___wmul@multiplier                 cstackBANK0   005A
+___wmul@product                    cstackBANK0   005E
+__end_ofPL10                       text58        0FA1
+__end_ofPL12                       text49        17B8
+__end_ofPL14                       text58        0FDB
+__end_ofPL16                       text49        17BF
+__end_ofPL18                       text49        17C5
+__end_ofPL2                        text58        0F90
+__end_ofPL20                       text49        17D1
+__end_ofPL22                       text49        17D7
+__end_ofPL24                       text49        17DF
+__end_ofPL26                       text49        17E7
+__end_ofPL28                       text49        17EE
+__end_ofPL30                       text12        0281
+__end_ofPL32                       text49        17F4
+__end_ofPL34                       text49        17FA
+__end_ofPL36                       text49        1800
+__end_ofPL4                        text38        0363
+__end_ofPL6                        text49        1799
+__end_ofPL8                        text58        0F9A
+__end_of_AutoStartFun              text58        0BBB
+__end_of_BotHeatOff                text58        0B6C
+__end_of_BotHeatOn                 text58        0B70
+__end_of_CakeHeat                  text58        0952
+__end_of_Cancel                    text58        0D9B
+__end_of_Cook_Task                 text58        088C
+__end_of_CountDownTimeStart        text58        0C07
+__end_of_DIG_Show_Data             text49        1329
+__end_of_DIG_Show_Time             text49        1792
+__end_of_DelayXms                  text40        03E8
+__end_of_ErrorTimeStart            text58        0F02
+__end_of_Error_Deal                text51        0468
+__end_of_Error_Show                text12        0204
+__end_of_FactoryTest               text58        0841
+__end_of_Factory_Show              text49        16FF
+__end_of_Fc_ID_1                   _Fc_ID_1_text 1FF9
+__end_of_Fc_ID_2                   _Fc_ID_2_text 1FFA
+__end_of_Fc_ID_3                   _Fc_ID_3_text 1FFB
+__end_of_Fc_ID_4                   _Fc_ID_4_text 1FFC
+__end_of_Fc_ID_5                   _Fc_ID_5_text 1FFD
+__end_of_Fc_ID_6                   _Fc_ID_6_text 1FFE
+__end_of_Fc_ID_7                   _Fc_ID_7_text 1FFF
+__end_of_Fc_ID_8                   _Fc_ID_8_text 2000
+__end_of_Fun_Choose_Show           text49        118D
+__end_of_Get_AC_Rms                text49        108D
+__end_of_Get_AC_Voltage            text65        00D1
+__end_of_Get_AD                    text65        00AB
+__end_of_Get_Lid_Data              text58        0FD5
+__end_of_Get_Pressure_Switch_Data  text65        00FD
+__end_of_Get_Temp_Data             text47        05A4
+__end_of_Get_Zero                  text65        0148
+__end_of_HOT_RUN_TAB               stringtext    1978
+__end_of_Heat_Time_Select          text58        0B63
+__end_of_Init_GPIO                 text40        039F
+__end_of_Init_LED_Module           text40        03AE
+__end_of_Init_PWM                  text40        03BB
+__end_of_Init_System               text40        0389
+__end_of_Init_TMR1                 text40        03C7
+__end_of_Init_Var                  text40        03D0
+__end_of_KeepWarmHeat              text58        0819
+__end_of_KeepWarmTimeStart         text7         05DA
+__end_of_Keepwarm_Show             text12        0260
+__end_of_Key_Drive                 text38        02CE
+__end_of_Key_Task                  text58        0D15
+__end_of_KscanIo                   text38        0352
+__end_of_LED_Drive                 text30        0524
+__end_of_LED_Off                   text12        026C
+__end_of_LED_Task                  text12        01E6
+__end_of_MainK_Preset              text58        0D5C
+__end_of_Maink_Cancel              text58        0D77
+__end_of_Maink_Factory             text58        0E7C
+__end_of_Maink_Fast_Fun            text58        0EB6
+__end_of_Maink_Test                text58        0EEB
+__end_of_OpenCook                  text58        09B9
+__end_of_Operate_Relay_IO          text65        0183
+__end_of_Power_On_Show             text12        0278
+__end_of_PresetTimeStart           text49        10D9
+__end_of_PressureHeat              text58        0A78
+__end_of_REF_TEMP_TAB              stringtext    1908
+__end_of_ReheatCook                text58        08DD
+__end_of_Relay_Duty_Control        text58        0F50
+__end_of_RiceHeat                  text58        0B4B
+__end_of_SEG_MATH_TAB              stringtext    1988
+__end_of_Set_Addr_Value            text30        054D
+__end_of_ShortTime                 text58        0F60
+__end_of_ShortTimeOn               text58        0B67
+__end_of_Sound_Deal                text11        05FF
+__end_of_StandbyTimeStart          text58        0F88
+__end_of_TIME_TAB                  stringtext    1944
+__end_of_Test_Mode_Show            text49        1315
+__end_of_Time_Deal                 text58        0B8C
+__end_of_Timer1_Isr                text65        0078
+__end_of_Waiting_Mode_Show         text12        027A
+__end_of_WorkTimeStart             text58        1000
+__end_of_Work_Mode_Show            text49        153C
+__end_of___awdiv                   text49        1398
+__end_of___awmod                   text49        13D5
+__end_of___lbdiv                   text49        1736
+__end_of___lbmod                   text49        171B
+__end_of___lwdiv                   text49        1353
+__end_of___lwmod                   text49        13F9
+__end_of___wmul                    text49        174F
+__end_of__initialization           cinit         0028
+__end_of__stringtab                stringtext    1812
+__end_of_main                      maintext      04E2
+__initialization                   cinit         000F
+__p_Fc_ID_1_text                   _Fc_ID_1_text 1FF8
+__p_Fc_ID_2_text                   _Fc_ID_2_text 1FF9
+__p_Fc_ID_3_text                   _Fc_ID_3_text 1FFA
+__p_Fc_ID_4_text                   _Fc_ID_4_text 1FFB
+__p_Fc_ID_5_text                   _Fc_ID_5_text 1FFC
+__p_Fc_ID_6_text                   _Fc_ID_6_text 1FFD
+__p_Fc_ID_7_text                   _Fc_ID_7_text 1FFE
+__p_Fc_ID_8_text                   _Fc_ID_8_text 1FFF
+__pbitbssCOMMON                    bitbssCOMMON  0380
+__pbssBANK0                        bssBANK0      0020
+__pbssBANK1                        bssBANK1      00A0
+__pbssCOMMON                       bssCOMMON     0079
+__pcstackBANK0                     cstackBANK0   005A
+__pcstackCOMMON                    cstackCOMMON  0073
+__pdataBANK0                       dataBANK0     006B
+__pidataBANK0                      idataBANK0    0000
+__pintentry                        intentry      0004
+__pmaintext                        maintext      0468
+__pnvBANK0                         nvBANK0       0067
+__pstringtext                      stringtext    1800
+__ptext1                           text58        0B70
+__ptext10                          text58        0B8C
+__ptext11                          text11        05DA
+__ptext12                          text12        0183
+__ptext13                          text49        13F9
+__ptext14                          text49        1736
+__ptext15                          text12        0278
+__ptext16                          text49        118D
+__ptext17                          text49        13D5
+__ptext18                          text49        1315
+__ptext19                          text12        026C
+__ptext2                           text58        0FDB
+__ptext20                          text12        0260
+__ptext21                          text12        0204
+__ptext22                          text49        10D9
+__ptext23                          text49        1398
+__ptext24                          text49        1353
+__ptext25                          text49        174F
+__ptext26                          text49        153C
+__ptext27                          text49        171B
+__ptext28                          text12        01E6
+__ptext29                          text49        16FF
+__ptext3                           text58        0F60
+__ptext30                          text30        04E2
+__ptext31                          text30        0524
+__ptext32                          text58        0C07
+__ptext33                          text58        0EB6
+__ptext34                          text58        0E7C
+__ptext35                          text58        0D9B
+__ptext36                          text58        0D5C
+__ptext37                          text58        0D15
+__ptext38                          text38        0281
+__ptext39                          text38        02CE
+__ptext4                           text58        0F50
+__ptext40                          text40        0363
+__ptext41                          text40        03C7
+__ptext42                          text40        03BB
+__ptext43                          text40        03AE
+__ptext44                          text40        039F
+__ptext45                          text40        0389
+__ptext46                          text40        03D0
+__ptext47                          text47        054D
+__ptext48                          text58        0FA1
+__ptext49                          text49        1002
+__ptext5                           text58        0F02
+__ptext50                          text49        1329
+__ptext51                          text51        03E8
+__ptext52                          text58        0841
+__ptext53                          text58        0A78
+__ptext54                          text58        088C
+__ptext55                          text58        09B9
+__ptext56                          text58        0D77
+__ptext57                          text58        0952
+__ptext58                          text58        0800
+__ptext59                          text58        0819
+__ptext6                           text49        108D
+__ptext60                          text58        08DD
+__ptext61                          text58        0B63
+__ptext62                          text58        0B4B
+__ptext63                          text58        0B6C
+__ptext64                          text58        0B67
+__ptext65                          text65        002C
+__ptext66                          text65        0148
+__ptext67                          text65        00FD
+__ptext68                          text65        00D1
+__ptext69                          text65        0078
+__ptext7                           text7         05A4
+__ptext70                          text65        00AB
+__ptext8                           text58        0EEB
+__ptext9                           text58        0BBB
+__size_of_AutoStartFun             (abs)         0000
+__size_of_BotHeatOff               (abs)         0000
+__size_of_BotHeatOn                (abs)         0000
+__size_of_CakeHeat                 (abs)         0000
+__size_of_Cancel                   (abs)         0000
+__size_of_Cook_Task                (abs)         0000
+__size_of_CountDownTimeStart       (abs)         0000
+__size_of_DIG_Show_Data            (abs)         0000
+__size_of_DIG_Show_Time            (abs)         0000
+__size_of_DelayXms                 (abs)         0000
+__size_of_ErrorTimeStart           (abs)         0000
+__size_of_Error_Deal               (abs)         0000
+__size_of_Error_Show               (abs)         0000
+__size_of_FactoryTest              (abs)         0000
+__size_of_Factory_Show             (abs)         0000
+__size_of_Fun_Choose_Show          (abs)         0000
+__size_of_Get_AC_Rms               (abs)         0000
+__size_of_Get_AC_Voltage           (abs)         0000
+__size_of_Get_AD                   (abs)         0000
+__size_of_Get_Lid_Data             (abs)         0000
+__size_of_Get_Pressure_Switch_Data (abs)         0000
+__size_of_Get_Temp_Data            (abs)         0000
+__size_of_Get_Zero                 (abs)         0000
+__size_of_Heat_Time_Select         (abs)         0000
+__size_of_Init_GPIO                (abs)         0000
+__size_of_Init_LED_Module          (abs)         0000
+__size_of_Init_PWM                 (abs)         0000
+__size_of_Init_System              (abs)         0000
+__size_of_Init_TMR1                (abs)         0000
+__size_of_Init_Var                 (abs)         0000
+__size_of_KeepWarmHeat             (abs)         0000
+__size_of_KeepWarmTimeStart        (abs)         0000
+__size_of_Keepwarm_Show            (abs)         0000
+__size_of_Key_Drive                (abs)         0000
+__size_of_Key_Task                 (abs)         0000
+__size_of_KscanIo                  (abs)         0000
+__size_of_LED_Drive                (abs)         0000
+__size_of_LED_Off                  (abs)         0000
+__size_of_LED_Task                 (abs)         0000
+__size_of_MainK_Preset             (abs)         0000
+__size_of_Maink_Cancel             (abs)         0000
+__size_of_Maink_Factory            (abs)         0000
+__size_of_Maink_Fast_Fun           (abs)         0000
+__size_of_Maink_Test               (abs)         0000
+__size_of_OpenCook                 (abs)         0000
+__size_of_Operate_Relay_IO         (abs)         0000
+__size_of_Power_On_Show            (abs)         0000
+__size_of_PresetTimeStart          (abs)         0000
+__size_of_PressureHeat             (abs)         0000
+__size_of_ReheatCook               (abs)         0000
+__size_of_Relay_Duty_Control       (abs)         0000
+__size_of_RiceHeat                 (abs)         0000
+__size_of_Set_Addr_Value           (abs)         0000
+__size_of_ShortTime                (abs)         0000
+__size_of_ShortTimeOn              (abs)         0000
+__size_of_Sound_Deal               (abs)         0000
+__size_of_StandbyTimeStart         (abs)         0000
+__size_of_Test_Mode_Show           (abs)         0000
+__size_of_Time_Deal                (abs)         0000
+__size_of_Timer1_Isr               (abs)         0000
+__size_of_Waiting_Mode_Show        (abs)         0000
+__size_of_WorkTimeStart            (abs)         0000
+__size_of_Work_Mode_Show           (abs)         0000
+__size_of___awdiv                  (abs)         0000
+__size_of___awmod                  (abs)         0000
+__size_of___lbdiv                  (abs)         0000
+__size_of___lbmod                  (abs)         0000
+__size_of___lwdiv                  (abs)         0000
+__size_of___lwmod                  (abs)         0000
+__size_of___wmul                   (abs)         0000
+__size_of_main                     (abs)         0000
+__stringbase                       stringtext    1812
+__stringtab                        stringtext    1800
+_b_AdBot_OK                        bitbssCOMMON  038F
+_b_AutoKeepWarm                    bitbssCOMMON  0384
+_b_Auto_test                       bitbssCOMMON  038B
+_b_BotHeatEn                       bitbssCOMMON  038E
+_b_BotHeatOn                       bitbssCOMMON  038D
+_b_BotTempOut                      bitbssCOMMON  038A
+_b_JudgeLidOk                      bitbssCOMMON  0382
+_b_LedCol                          bitbssCOMMON  0385
+_b_LidClosed                       bitbssCOMMON  0397
+_b_MainLoop_500ms                  bitbssCOMMON  0380
+_b_MainLoop_8ms                    bitbssCOMMON  0381
+_b_Opencook_OK                     bitbssCOMMON  0389
+_b_PressureOn                      bitbssCOMMON  0395
+_b_RelType                         bitbssCOMMON  0388
+_b_Rel_NoZero                      bitbssCOMMON  0387
+_b_ShortOn                         bitbssCOMMON  038C
+_b_Standby                         bitbssCOMMON  0396
+_b_TestShow                        bitbssCOMMON  0383
+_b_VolData_OK                      bitbssCOMMON  0394
+_b_Zero                            bitbssCOMMON  0390
+_b_ZeroDeley_OK                    bitbssCOMMON  0386
+_b_ZeroTimeout                     bitbssCOMMON  0392
+_b_ZeroWave_OK                     bitbssCOMMON  0391
+_b_Zero_EN                         bitbssCOMMON  0393
+_main                              maintext      0468
+btemp                              (abs)         007E
+clear_ram0                         clrtext       05FF
+end_of_initialization              cinit         0028
+interrupt_function                 intentry      0004
+intlevel0                          functab       0000
+intlevel1                          functab       0000
+intlevel2                          functab       0000
+intlevel3                          functab       0000
+intlevel4                          functab       0000
+intlevel5                          functab       0000
+reset_vec                          reset_vec     0000
+saved_w                            (abs)         007E
+stackhi                            (abs)         0000
+stacklo                            (abs)         0000
+start                              init          000C
+start_initialization               cinit         000F
+wtemp0                             (abs)         007E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 201 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels required when called:    6
+ This function calls:
+		_Cook_Task
+		_Error_Deal
+		_Get_AC_Rms
+		_Get_Lid_Data
+		_Get_Temp_Data
+		_Init_System
+		_Key_Drive
+		_Key_Task
+		_LED_Drive
+		_LED_Task
+		_Sound_Deal
+		_Time_Deal
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _Time_Deal *****************
+ Defined at:
+		line 293 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_AutoStartFun
+		_CountDownTimeStart
+		_ErrorTimeStart
+		_KeepWarmTimeStart
+		_PresetTimeStart
+		_Relay_Duty_Control
+		_ShortTime
+		_StandbyTimeStart
+		_WorkTimeStart
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _WorkTimeStart *****************
+ Defined at:
+		line 206 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _StandbyTimeStart *****************
+ Defined at:
+		line 9 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Cancel
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _ShortTime *****************
+ Defined at:
+		line 237 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _Relay_Duty_Control *****************
+ Defined at:
+		line 734 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _PresetTimeStart *****************
+ Defined at:
+		line 76 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___awdiv
+		___awmod
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _KeepWarmTimeStart *****************
+ Defined at:
+		line 168 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Cancel
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _ErrorTimeStart *****************
+ Defined at:
+		line 53 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _CountDownTimeStart *****************
+ Defined at:
+		line 109 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Cancel
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _AutoStartFun *****************
+ Defined at:
+		line 247 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Time_Deal
+ This function uses a non-reentrant model
+
+
+ *************** function _Sound_Deal *****************
+ Defined at:
+		line 6 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\sound.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _LED_Task *****************
+ Defined at:
+		line 691 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_Error_Show
+		_Factory_Show
+		_Fun_Choose_Show
+		_Keepwarm_Show
+		_LED_Off
+		_Power_On_Show
+		_Test_Mode_Show
+		_Waiting_Mode_Show
+		_Work_Mode_Show
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Work_Mode_Show *****************
+ Defined at:
+		line 241 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       5       0       0       0
+      Totals:         0       5       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_DIG_Show_Time
+		___lbdiv
+		___lbmod
+		___wmul
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function ___wmul *****************
+ Defined at:
+		line 15 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\Umul16.c"
+ Parameters:    Size  Location     Type
+  multiplier      2    0[BANK0 ] unsigned int 
+  multiplicand    2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  product         2    4[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Work_Mode_Show
+ This function uses a non-reentrant model
+
+
+ *************** function _Waiting_Mode_Show *****************
+ Defined at:
+		line 151 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Test_Mode_Show *****************
+ Defined at:
+		line 435 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DIG_Show_Data
+		___awdiv
+		___awmod
+		___lbdiv
+		___lbmod
+		___lwdiv
+		___lwmod
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwmod *****************
+ Defined at:
+		line 6 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lwmod.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] unsigned int 
+  dividend        2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       5       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Test_Mode_Show
+ This function uses a non-reentrant model
+
+
+ *************** function _DIG_Show_Data *****************
+ Defined at:
+		line 89 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+  digdata1        1    wreg     unsigned char 
+  digdata2        1    5[BANK0 ] unsigned char 
+  digdata3        1    6[BANK0 ] unsigned char 
+  digdata4        1    7[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  digdata1        1    8[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       3       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Test_Mode_Show
+ This function uses a non-reentrant model
+
+
+ *************** function _Power_On_Show *****************
+ Defined at:
+		line 135 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _LED_Off *****************
+ Defined at:
+		line 118 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1    0[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Keepwarm_Show *****************
+ Defined at:
+		line 377 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Fun_Choose_Show *****************
+ Defined at:
+		line 168 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_DIG_Show_Time
+		___awdiv
+		___awmod
+		___lbdiv
+		___lbmod
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function ___awmod *****************
+ Defined at:
+		line 6 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\awmod.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] int 
+  dividend        2    2[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  sign            1    5[BANK0 ] unsigned char 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Fun_Choose_Show
+		_Test_Mode_Show
+		_PresetTimeStart
+ This function uses a non-reentrant model
+
+
+ *************** function ___awdiv *****************
+ Defined at:
+		line 6 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] int 
+  dividend        2    2[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  quotient        2    6[BANK0 ] int 
+  sign            1    5[BANK0 ] unsigned char 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       4       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       8       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Fun_Choose_Show
+		_Test_Mode_Show
+		_PresetTimeStart
+ This function uses a non-reentrant model
+
+
+ *************** function _DIG_Show_Time *****************
+ Defined at:
+		line 48 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+  hour            1    wreg     unsigned char 
+  min             1    5[BANK0 ] unsigned char 
+  point           1    6[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  hour            1    7[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lbdiv
+		___lbmod
+ This function is called by:
+		_Fun_Choose_Show
+		_Work_Mode_Show
+ This function uses a non-reentrant model
+
+
+ *************** function _Factory_Show *****************
+ Defined at:
+		line 547 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lbdiv
+		___lbmod
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function ___lbdiv *****************
+ Defined at:
+		line 4 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lbdiv.c"
+ Parameters:    Size  Location     Type
+  dividend        1    wreg     unsigned char 
+  divisor         1    0[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  dividend        1    1[BANK0 ] unsigned char 
+  quotient        1    3[BANK0 ] unsigned char 
+  counter         1    2[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       3       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_DIG_Show_Time
+		_Fun_Choose_Show
+		_Work_Mode_Show
+		_Test_Mode_Show
+		_Factory_Show
+ This function uses a non-reentrant model
+
+
+ *************** function _Error_Show *****************
+ Defined at:
+		line 421 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lbmod
+ This function is called by:
+		_LED_Task
+ This function uses a non-reentrant model
+
+
+ *************** function ___lbmod *****************
+ Defined at:
+		line 4 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lbmod.c"
+ Parameters:    Size  Location     Type
+  dividend        1    wreg     unsigned char 
+  divisor         1    0[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  dividend        1    2[BANK0 ] unsigned char 
+  rem             1    4[BANK0 ] unsigned char 
+  counter         1    3[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       3       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       5       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_DIG_Show_Time
+		_Fun_Choose_Show
+		_Work_Mode_Show
+		_Error_Show
+		_Test_Mode_Show
+		_Factory_Show
+ This function uses a non-reentrant model
+
+
+ *************** function _LED_Drive *****************
+ Defined at:
+		line 834 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Set_Addr_Value
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Set_Addr_Value *****************
+ Defined at:
+		line 769 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+  addr            1    wreg     unsigned char 
+  mask            1    0[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  addr            1    1[BANK0 ] unsigned char 
+  data            1    2[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       2       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_LED_Drive
+ This function uses a non-reentrant model
+
+
+ *************** function _Key_Task *****************
+ Defined at:
+		line 432 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_MainK_Preset
+		_Maink_Cancel
+		_Maink_Factory
+		_Maink_Fast_Fun
+		_Maink_Test
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Maink_Test *****************
+ Defined at:
+		line 187 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Key_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Maink_Fast_Fun *****************
+ Defined at:
+		line 160 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       1       0       0       0
+      Totals:         0       1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Key_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Maink_Factory *****************
+ Defined at:
+		line 233 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Cancel
+ This function is called by:
+		_Key_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Maink_Cancel *****************
+ Defined at:
+		line 29 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_Cancel
+ This function is called by:
+		_Key_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _MainK_Preset *****************
+ Defined at:
+		line 96 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Key_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Key_Drive *****************
+ Defined at:
+		line 661 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_KscanIo
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _KscanIo *****************
+ Defined at:
+		line 599 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         0       5       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Key_Drive
+ This function uses a non-reentrant model
+
+
+ *************** function _Init_System *****************
+ Defined at:
+		line 110 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DelayXms
+		_Init_GPIO
+		_Init_LED_Module
+		_Init_PWM
+		_Init_TMR1
+		_Init_Var
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Init_Var *****************
+ Defined at:
+		line 100 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Init_System
+ This function uses a non-reentrant model
+
+
+ *************** function _Init_TMR1 *****************
+ Defined at:
+		line 63 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Init_System
+ This function uses a non-reentrant model
+
+
+ *************** function _Init_PWM *****************
+ Defined at:
+		line 44 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Init_System
+ This function uses a non-reentrant model
+
+
+ *************** function _Init_LED_Module *****************
+ Defined at:
+		line 817 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Init_System
+ This function uses a non-reentrant model
+
+
+ *************** function _Init_GPIO *****************
+ Defined at:
+		line 72 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Init_System
+ This function uses a non-reentrant model
+
+
+ *************** function _DelayXms *****************
+ Defined at:
+		line 10 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\delay.c"
+ Parameters:    Size  Location     Type
+  x               2    0[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  i               1    2[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       2       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Init_System
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_Temp_Data *****************
+ Defined at:
+		line 353 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_Lid_Data *****************
+ Defined at:
+		line 42 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_AC_Rms *****************
+ Defined at:
+		line 180 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       2       0       0       0
+      Totals:         0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		___lwdiv
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwdiv *****************
+ Defined at:
+		line 6 in file "D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lwdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[BANK0 ] unsigned int 
+  dividend        2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  quotient        2    4[BANK0 ] unsigned int 
+  counter         1    6[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       3       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       7       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_Test_Mode_Show
+		_Get_AC_Rms
+ This function uses a non-reentrant model
+
+
+ *************** function _Error_Deal *****************
+ Defined at:
+		line 9 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\error.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Cook_Task *****************
+ Defined at:
+		line 658 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_CakeHeat
+		_FactoryTest
+		_KeepWarmHeat
+		_OpenCook
+		_PressureHeat
+		_ReheatCook
+		_RiceHeat
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _RiceHeat *****************
+ Defined at:
+		line 139 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_Heat_Time_Select
+		_ShortTimeOn
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _ReheatCook *****************
+ Defined at:
+		line 563 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_Heat_Time_Select
+		_ShortTimeOn
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _PressureHeat *****************
+ Defined at:
+		line 275 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_Cancel
+		_Heat_Time_Select
+		_ShortTimeOn
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Cancel *****************
+ Defined at:
+		line 549 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_PressureHeat
+		_Maink_Cancel
+		_Maink_Factory
+		_StandbyTimeStart
+		_CountDownTimeStart
+		_KeepWarmTimeStart
+ This function uses a non-reentrant model
+
+
+ *************** function _OpenCook *****************
+ Defined at:
+		line 403 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_Heat_Time_Select
+		_ShortTimeOn
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _KeepWarmHeat *****************
+ Defined at:
+		line 634 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_Heat_Time_Select
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _FactoryTest *****************
+ Defined at:
+		line 77 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_ShortTimeOn
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _CakeHeat *****************
+ Defined at:
+		line 491 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_BotHeatOff
+		_BotHeatOn
+		_Heat_Time_Select
+		_ShortTimeOn
+ This function is called by:
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _ShortTimeOn *****************
+ Defined at:
+		line 64 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_FactoryTest
+		_RiceHeat
+		_PressureHeat
+		_OpenCook
+		_CakeHeat
+		_ReheatCook
+ This function uses a non-reentrant model
+
+
+ *************** function _Heat_Time_Select *****************
+ Defined at:
+		line 11 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+  ontm            1    wreg     unsigned char 
+  offtm           1    0[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+  ontm            1    1[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       1       0       0       0
+      Locals:         0       1       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_RiceHeat
+		_PressureHeat
+		_OpenCook
+		_CakeHeat
+		_ReheatCook
+		_KeepWarmHeat
+ This function uses a non-reentrant model
+
+
+ *************** function _BotHeatOn *****************
+ Defined at:
+		line 38 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_FactoryTest
+		_RiceHeat
+		_PressureHeat
+		_OpenCook
+		_CakeHeat
+		_ReheatCook
+		_KeepWarmHeat
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _BotHeatOff *****************
+ Defined at:
+		line 51 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_FactoryTest
+		_RiceHeat
+		_PressureHeat
+		_OpenCook
+		_CakeHeat
+		_ReheatCook
+		_KeepWarmHeat
+		_Cook_Task
+ This function uses a non-reentrant model
+
+
+ *************** function _Timer1_Isr *****************
+ Defined at:
+		line 143 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_Get_AC_Voltage
+		_Get_AD
+		_Get_Pressure_Switch_Data
+		_Get_Zero
+		_Operate_Relay_IO
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function _Operate_Relay_IO *****************
+ Defined at:
+		line 805 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Timer1_Isr
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_Zero *****************
+ Defined at:
+		line 259 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Timer1_Isr
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_Pressure_Switch_Data *****************
+ Defined at:
+		line 102 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Timer1_Isr
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_AD *****************
+ Defined at:
+		line 409 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+  ch              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  ch              1    2[COMMON] unsigned char 
+  adresult        1    1[COMMON] unsigned char 
+  i               1    3[COMMON] volatile unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Timer1_Isr
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_AC_Voltage *****************
+ Defined at:
+		line 149 in file "E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Timer1_Isr
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c
+		_main          		CODE           	0468	0000	123
+		_Init_Var      		CODE           	03C7	0000	10
+		_Init_PWM      		CODE           	03AE	0000	14
+		_Timer1_Isr    		CODE           	002C	0000	77
+		_Init_GPIO     		CODE           	0389	0000	23
+		_Init_System   		CODE           	0363	0000	39
+		_Init_TMR1     		CODE           	03BB	0000	13
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\main.c estimated size: 299
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c
+		_RiceHeat      		CODE           	0A78	0000	212
+		_CakeHeat      		CODE           	08DD	0000	118
+		_Relay_Duty_Control		CODE           	0F02	0000	79
+		_Cook_Task     		CODE           	0841	0000	76
+		_PressureHeat  		CODE           	09B9	0000	192
+		_OpenCook      		CODE           	0952	0000	104
+		_Operate_Relay_IO		CODE           	0148	0000	60
+		_FactoryTest   		CODE           	0819	0000	41
+		_Heat_Time_Select		CODE           	0B4B	0000	25
+		_KeepWarmHeat  		CODE           	0800	0000	26
+		_ShortTimeOn   		CODE           	0B63	0000	5
+		_BotHeatOn     		CODE           	0B6C	0000	5
+		_BotHeatOff    		CODE           	0B67	0000	6
+		_ReheatCook    		CODE           	088C	0000	82
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\cook.c estimated size: 1031
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\sound.c
+		_Sound_Deal    		CODE           	05DA	0000	38
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\sound.c estimated size: 38
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lwdiv.c
+		___lwdiv       		CODE           	1329	0000	43
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lwdiv.c estimated size: 43
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\awdiv.c
+		___awdiv       		CODE           	1353	0000	70
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\awdiv.c estimated size: 70
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c
+		_CountDownTimeStart		CODE           	0BBB	0000	77
+		_KeepWarmTimeStart		CODE           	05A4	0000	55
+		_WorkTimeStart 		CODE           	0FDB	0000	38
+		_PresetTimeStart		CODE           	108D	0000	77
+		_StandbyTimeStart		CODE           	0F60	0000	41
+		_ErrorTimeStart		CODE           	0EEB	0000	24
+		_AutoStartFun  		CODE           	0B8C	0000	48
+		_Time_Deal     		CODE           	0B70	0000	29
+		_ShortTime     		CODE           	0F50	0000	17
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\time.c estimated size: 406
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lbmod.c
+		___lbmod       		CODE           	16FF	0000	29
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lbmod.c estimated size: 29
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\delay.c
+		_DelayXms      		CODE           	03D0	0000	25
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\delay.c estimated size: 25
+
+shared
+		PL12           		CODE           	1799	0000	32
+		PL8            		CODE           	0F90	0000	11
+		PL22           		CODE           	17D1	0000	7
+		PL32           		CODE           	17EE	0000	7
+		_Fc_ID_2       		CODE           	1FF9	0000	2
+		PL14           		CODE           	0FD5	0000	7
+		_SEG_MATH_TAB  		STRCODE        	1978	0000	17
+		PL24           		CODE           	17D7	0000	9
+		__stringtab    		STRCODE        	1800	0000	19
+		PL34           		CODE           	17F4	0000	7
+		_Fc_ID_5       		CODE           	1FFC	0000	2
+		PL16           		CODE           	17B8	0000	8
+		PL26           		CODE           	17DF	0000	9
+		_Fc_ID_8       		CODE           	1FFF	0000	2
+		PL36           		CODE           	17FA	0000	7
+		PL18           		CODE           	17BF	0000	7
+		PL28           		CODE           	17E7	0000	8
+		_HOT_RUN_TAB   		STRCODE        	1944	0000	53
+		_Fc_ID_1       		CODE           	1FF8	0000	2
+		_Fc_ID_4       		CODE           	1FFB	0000	2
+		__initialization		CODE           	000F	0000	26
+		_Fc_ID_7       		CODE           	1FFE	0000	2
+		_TIME_TAB      		STRCODE        	1908	0000	61
+		_Fc_ID_3       		CODE           	1FFA	0000	2
+		_REF_TEMP_TAB  		STRCODE        	1812	0000	247
+		_Fc_ID_6       		CODE           	1FFD	0000	2
+		PL2            		CODE           	0F88	0000	9
+		PL10           		CODE           	0F9A	0000	8
+		PL4            		CODE           	0352	0000	18
+		PL20           		CODE           	17C5	0000	13
+		PL30           		CODE           	027A	0000	8
+		PL6            		CODE           	1792	0000	8
+
+shared estimated size: 622
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c
+		_Error_Show    		CODE           	01E6	0000	31
+		_DIG_Show_Data 		CODE           	1315	0000	21
+		_DIG_Show_Time 		CODE           	174F	0000	68
+		_Init_LED_Module		CODE           	039F	0000	16
+		_LED_Off       		CODE           	0260	0000	13
+		_LED_Task      		CODE           	0183	0000	100
+		_Keepwarm_Show 		CODE           	0204	0000	93
+		_Fun_Choose_Show		CODE           	10D9	0000	181
+		_Test_Mode_Show		CODE           	118D	0000	393
+		_LED_Drive     		CODE           	04E2	0000	67
+		_Waiting_Mode_Show		CODE           	0278	0000	3
+		_Factory_Show  		CODE           	153C	0000	452
+		_Power_On_Show 		CODE           	026C	0000	13
+		_Set_Addr_Value		CODE           	0524	0000	42
+		_Work_Mode_Show		CODE           	13F9	0000	324
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\display.c estimated size: 1817
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lbdiv.c
+		___lbdiv       		CODE           	171B	0000	28
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lbdiv.c estimated size: 28
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c
+		_Maink_Cancel  		CODE           	0D5C	0000	28
+		_KscanIo       		CODE           	02CE	0000	133
+		_Maink_Factory 		CODE           	0D9B	0000	226
+		_Key_Task      		CODE           	0C07	0000	271
+		_Maink_Fast_Fun		CODE           	0E7C	0000	59
+		_Key_Drive     		CODE           	0281	0000	78
+		_Cancel        		CODE           	0D77	0000	37
+		_MainK_Preset  		CODE           	0D15	0000	72
+		_Maink_Test    		CODE           	0EB6	0000	54
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\key.c estimated size: 958
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c
+		_Get_AC_Voltage		CODE           	00AB	0000	39
+		_Get_Lid_Data  		CODE           	0FA1	0000	53
+		_Get_Temp_Data 		CODE           	054D	0000	88
+		_Get_Pressure_Switch_Data		CODE           	00D1	0000	45
+		_Get_AD        		CODE           	0078	0000	52
+		_Get_AC_Rms    		CODE           	1002	0000	140
+		_Get_Zero      		CODE           	00FD	0000	76
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\adc.c estimated size: 493
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lwmod.c
+		___lwmod       		CODE           	13D5	0000	37
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\lwmod.c estimated size: 37
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\awmod.c
+		___awmod       		CODE           	1398	0000	62
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\awmod.c estimated size: 62
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\error.c
+		_Error_Deal    		CODE           	03E8	0000	129
+
+E:\ProjectFile\2019\1-50C88\Program\Y-50C88-A008\error.c estimated size: 129
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\Umul16.c
+		___wmul        		CODE           	1736	0000	26
+
+D:\PROGRA~2\CMS_ID~1.12\data\sources\common\Umul16.c estimated size: 26
+
